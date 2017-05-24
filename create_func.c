@@ -9,8 +9,8 @@ t_link *create_link(void)
 	t_link *link;
 
 	link = (t_link *)malloc(sizeof(t_link));
-	link->link = 0;
-	link->next = 0;
+	link->link = NULL;
+	link->next = NULL;
 	return (link);
 }
 
@@ -19,8 +19,8 @@ t_in *create_room(void)
 	t_in *room;
 
 	room = (t_in *)malloc(sizeof(t_in));
-	room->num_r = 0;
-	room->next = 0;
+	room->num_r = NULL;
+	room->next = NULL;
 	room->links = create_link();
 	return (room);
 }
@@ -31,8 +31,8 @@ t_lem *create_lemin(void)
 
 	lemin = (t_lem *)malloc(sizeof(t_lem));
 	lemin->ants = 0;
-	lemin->end = 0;
-	lemin->start = 0;
+	lemin->end = NULL;
+	lemin->start = NULL;
 	lemin->room = create_room();
 	return (lemin);
 }

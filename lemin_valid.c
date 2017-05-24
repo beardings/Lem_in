@@ -8,12 +8,14 @@ int it_command(char *str, t_lem **lemin)
 {
 	if (!(ft_strcmp(str, "##end")))
 	{
-		(*lemin)->end = 'L';
+		(*lemin)->end = ft_strnew(2);
+		(*lemin)->end[0] = 'L';
 		return (1);
 	}
 	else if (!(ft_strcmp(str, "##start")))
 	{
-		(*lemin)->start = 'L';
+		(*lemin)->start = ft_strnew(2);
+		(*lemin)->start[0] = 'L';
 		return (1);
 	}
 	else
@@ -51,21 +53,33 @@ int it_numants(char *str, t_lem **lemin)
 		return (0);
 }
 
-/*int it_rooms(char *str, t_lem **lemin)
+int go_to_s(char *str, int p)
 {
+}
 
-}*/
+int it_rooms(char *str, t_lem **lemin)
+{
+	int i;
+	int s;
+
+	i = 0;
+	s = 0;
+	while (str[i] != '\0')
+	{
+		i = go_to_s(str, i);
+	}
+
+}
 
 int lemin_valid(char *str, t_lem **lemin)
 {
-	if ((it_comment(str)) == 1)
+	if ((it_comment(str)))
 		return (1);
-	if ((it_numants(str, lemin)) == 1)
+	if ((it_numants(str, lemin)))
 		return (1);
-	if ((it_command(str, lemin)) == 1)
+	if ((it_command(str, lemin)))
 		return (1);
-/*	if ()
-		return (1);*/
-
+	if ((it_rooms(str, lemin)))
+		return (1);
 	return (0);
 }
