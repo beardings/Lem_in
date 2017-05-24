@@ -4,18 +4,24 @@
 
 #include "lem_in.h"
 
-int main(int c, char **v)
+int main(void)
 {
-    char *line;
-    int fd;
+	char *line;
+	int fd;
+	t_lem *lemin;
 
-    line = NULL;
-    if (c == 2)
-    {
-        fd = open(v[1], O_RDONLY);
-        while ((get_next_line(fd, &line)))
-            lemin_valid(line);
-        close(fd);
-    }
-    return (0);
+	lemin = create_lemin();
+	line = NULL;
+	fd = open("/nfs/2016/m/mponomar/project/git/Lem_in/test", O_RDONLY);
+	while ((get_next_line(fd, &line)) > 0)
+	{
+		if (!(lemin_valid(line, &lemin)))
+		{
+			printf("\033[0;31mERROR\033[0m\n");
+			return (0);
+		}
+		free(line);
+	}
+	free(line);
+	return (0);
 }
