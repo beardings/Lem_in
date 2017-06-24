@@ -123,6 +123,33 @@ push_swap/fast:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
+check_func.o: check_func.c.o
+
+.PHONY : check_func.o
+
+# target to build an object file
+check_func.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_func.c.o
+.PHONY : check_func.c.o
+
+check_func.i: check_func.c.i
+
+.PHONY : check_func.i
+
+# target to preprocess a source file
+check_func.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_func.c.i
+.PHONY : check_func.c.i
+
+check_func.s: check_func.c.s
+
+.PHONY : check_func.s
+
+# target to generate assembly for a file
+check_func.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_func.c.s
+.PHONY : check_func.c.s
+
 check_maxint.o: check_maxint.c.o
 
 .PHONY : check_maxint.o
@@ -176,6 +203,33 @@ create_func.s: create_func.c.s
 create_func.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/create_func.c.s
 .PHONY : create_func.c.s
+
+lem_valid_n.o: lem_valid_n.c.o
+
+.PHONY : lem_valid_n.o
+
+# target to build an object file
+lem_valid_n.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/lem_valid_n.c.o
+.PHONY : lem_valid_n.c.o
+
+lem_valid_n.i: lem_valid_n.c.i
+
+.PHONY : lem_valid_n.i
+
+# target to preprocess a source file
+lem_valid_n.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/lem_valid_n.c.i
+.PHONY : lem_valid_n.c.i
+
+lem_valid_n.s: lem_valid_n.c.s
+
+.PHONY : lem_valid_n.s
+
+# target to generate assembly for a file
+lem_valid_n.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/lem_valid_n.c.s
+.PHONY : lem_valid_n.c.s
 
 lemin_valid.o: lemin_valid.c.o
 
@@ -285,6 +339,33 @@ libft/libft/ft_bzero.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_bzero.c.s
 .PHONY : libft/libft/ft_bzero.c.s
 
+libft/libft/ft_hz.o: libft/libft/ft_hz.c.o
+
+.PHONY : libft/libft/ft_hz.o
+
+# target to build an object file
+libft/libft/ft_hz.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o
+.PHONY : libft/libft/ft_hz.c.o
+
+libft/libft/ft_hz.i: libft/libft/ft_hz.c.i
+
+.PHONY : libft/libft/ft_hz.i
+
+# target to preprocess a source file
+libft/libft/ft_hz.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.i
+.PHONY : libft/libft/ft_hz.c.i
+
+libft/libft/ft_hz.s: libft/libft/ft_hz.c.s
+
+.PHONY : libft/libft/ft_hz.s
+
+# target to generate assembly for a file
+libft/libft/ft_hz.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.s
+.PHONY : libft/libft/ft_hz.c.s
+
 libft/libft/ft_memset.o: libft/libft/ft_memset.c.o
 
 .PHONY : libft/libft/ft_memset.o
@@ -311,6 +392,33 @@ libft/libft/ft_memset.s: libft/libft/ft_memset.c.s
 libft/libft/ft_memset.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_memset.c.s
 .PHONY : libft/libft/ft_memset.c.s
+
+libft/libft/ft_newsize.o: libft/libft/ft_newsize.c.o
+
+.PHONY : libft/libft/ft_newsize.o
+
+# target to build an object file
+libft/libft/ft_newsize.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o
+.PHONY : libft/libft/ft_newsize.c.o
+
+libft/libft/ft_newsize.i: libft/libft/ft_newsize.c.i
+
+.PHONY : libft/libft/ft_newsize.i
+
+# target to preprocess a source file
+libft/libft/ft_newsize.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.i
+.PHONY : libft/libft/ft_newsize.c.i
+
+libft/libft/ft_newsize.s: libft/libft/ft_newsize.c.s
+
+.PHONY : libft/libft/ft_newsize.s
+
+# target to generate assembly for a file
+libft/libft/ft_newsize.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.s
+.PHONY : libft/libft/ft_newsize.c.s
 
 libft/libft/ft_strcat.o: libft/libft/ft_strcat.c.o
 
@@ -447,6 +555,60 @@ libft/libft/ft_strcpy.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strcpy.c.s
 .PHONY : libft/libft/ft_strcpy.c.s
 
+libft/libft/ft_strdel.o: libft/libft/ft_strdel.c.o
+
+.PHONY : libft/libft/ft_strdel.o
+
+# target to build an object file
+libft/libft/ft_strdel.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o
+.PHONY : libft/libft/ft_strdel.c.o
+
+libft/libft/ft_strdel.i: libft/libft/ft_strdel.c.i
+
+.PHONY : libft/libft/ft_strdel.i
+
+# target to preprocess a source file
+libft/libft/ft_strdel.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.i
+.PHONY : libft/libft/ft_strdel.c.i
+
+libft/libft/ft_strdel.s: libft/libft/ft_strdel.c.s
+
+.PHONY : libft/libft/ft_strdel.s
+
+# target to generate assembly for a file
+libft/libft/ft_strdel.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.s
+.PHONY : libft/libft/ft_strdel.c.s
+
+libft/libft/ft_strdup.o: libft/libft/ft_strdup.c.o
+
+.PHONY : libft/libft/ft_strdup.o
+
+# target to build an object file
+libft/libft/ft_strdup.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o
+.PHONY : libft/libft/ft_strdup.c.o
+
+libft/libft/ft_strdup.i: libft/libft/ft_strdup.c.i
+
+.PHONY : libft/libft/ft_strdup.i
+
+# target to preprocess a source file
+libft/libft/ft_strdup.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.i
+.PHONY : libft/libft/ft_strdup.c.i
+
+libft/libft/ft_strdup.s: libft/libft/ft_strdup.c.s
+
+.PHONY : libft/libft/ft_strdup.s
+
+# target to generate assembly for a file
+libft/libft/ft_strdup.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.s
+.PHONY : libft/libft/ft_strdup.c.s
+
 libft/libft/ft_strjoin.o: libft/libft/ft_strjoin.c.o
 
 .PHONY : libft/libft/ft_strjoin.o
@@ -501,6 +663,33 @@ libft/libft/ft_strlen.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strlen.c.s
 .PHONY : libft/libft/ft_strlen.c.s
 
+libft/libft/ft_strncpy.o: libft/libft/ft_strncpy.c.o
+
+.PHONY : libft/libft/ft_strncpy.o
+
+# target to build an object file
+libft/libft/ft_strncpy.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o
+.PHONY : libft/libft/ft_strncpy.c.o
+
+libft/libft/ft_strncpy.i: libft/libft/ft_strncpy.c.i
+
+.PHONY : libft/libft/ft_strncpy.i
+
+# target to preprocess a source file
+libft/libft/ft_strncpy.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.i
+.PHONY : libft/libft/ft_strncpy.c.i
+
+libft/libft/ft_strncpy.s: libft/libft/ft_strncpy.c.s
+
+.PHONY : libft/libft/ft_strncpy.s
+
+# target to generate assembly for a file
+libft/libft/ft_strncpy.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.s
+.PHONY : libft/libft/ft_strncpy.c.s
+
 libft/libft/ft_strnew.o: libft/libft/ft_strnew.c.o
 
 .PHONY : libft/libft/ft_strnew.o
@@ -527,6 +716,60 @@ libft/libft/ft_strnew.s: libft/libft/ft_strnew.c.s
 libft/libft/ft_strnew.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strnew.c.s
 .PHONY : libft/libft/ft_strnew.c.s
+
+libft/libft/ft_strsplit.o: libft/libft/ft_strsplit.c.o
+
+.PHONY : libft/libft/ft_strsplit.o
+
+# target to build an object file
+libft/libft/ft_strsplit.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o
+.PHONY : libft/libft/ft_strsplit.c.o
+
+libft/libft/ft_strsplit.i: libft/libft/ft_strsplit.c.i
+
+.PHONY : libft/libft/ft_strsplit.i
+
+# target to preprocess a source file
+libft/libft/ft_strsplit.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.i
+.PHONY : libft/libft/ft_strsplit.c.i
+
+libft/libft/ft_strsplit.s: libft/libft/ft_strsplit.c.s
+
+.PHONY : libft/libft/ft_strsplit.s
+
+# target to generate assembly for a file
+libft/libft/ft_strsplit.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.s
+.PHONY : libft/libft/ft_strsplit.c.s
+
+libft/libft/ft_strsub.o: libft/libft/ft_strsub.c.o
+
+.PHONY : libft/libft/ft_strsub.o
+
+# target to build an object file
+libft/libft/ft_strsub.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o
+.PHONY : libft/libft/ft_strsub.c.o
+
+libft/libft/ft_strsub.i: libft/libft/ft_strsub.c.i
+
+.PHONY : libft/libft/ft_strsub.i
+
+# target to preprocess a source file
+libft/libft/ft_strsub.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.i
+.PHONY : libft/libft/ft_strsub.c.i
+
+libft/libft/ft_strsub.s: libft/libft/ft_strsub.c.s
+
+.PHONY : libft/libft/ft_strsub.s
+
+# target to generate assembly for a file
+libft/libft/ft_strsub.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.s
+.PHONY : libft/libft/ft_strsub.c.s
 
 main.o: main.c.o
 
@@ -555,6 +798,33 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.s
 .PHONY : main.c.s
 
+valid_func.o: valid_func.c.o
+
+.PHONY : valid_func.o
+
+# target to build an object file
+valid_func.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/valid_func.c.o
+.PHONY : valid_func.c.o
+
+valid_func.i: valid_func.c.i
+
+.PHONY : valid_func.i
+
+# target to preprocess a source file
+valid_func.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/valid_func.c.i
+.PHONY : valid_func.c.i
+
+valid_func.s: valid_func.c.s
+
+.PHONY : valid_func.s
+
+# target to generate assembly for a file
+valid_func.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/valid_func.c.s
+.PHONY : valid_func.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -564,12 +834,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... push_swap"
+	@echo "... check_func.o"
+	@echo "... check_func.i"
+	@echo "... check_func.s"
 	@echo "... check_maxint.o"
 	@echo "... check_maxint.i"
 	@echo "... check_maxint.s"
 	@echo "... create_func.o"
 	@echo "... create_func.i"
 	@echo "... create_func.s"
+	@echo "... lem_valid_n.o"
+	@echo "... lem_valid_n.i"
+	@echo "... lem_valid_n.s"
 	@echo "... lemin_valid.o"
 	@echo "... lemin_valid.i"
 	@echo "... lemin_valid.s"
@@ -582,9 +858,15 @@ help:
 	@echo "... libft/libft/ft_bzero.o"
 	@echo "... libft/libft/ft_bzero.i"
 	@echo "... libft/libft/ft_bzero.s"
+	@echo "... libft/libft/ft_hz.o"
+	@echo "... libft/libft/ft_hz.i"
+	@echo "... libft/libft/ft_hz.s"
 	@echo "... libft/libft/ft_memset.o"
 	@echo "... libft/libft/ft_memset.i"
 	@echo "... libft/libft/ft_memset.s"
+	@echo "... libft/libft/ft_newsize.o"
+	@echo "... libft/libft/ft_newsize.i"
+	@echo "... libft/libft/ft_newsize.s"
 	@echo "... libft/libft/ft_strcat.o"
 	@echo "... libft/libft/ft_strcat.i"
 	@echo "... libft/libft/ft_strcat.s"
@@ -600,18 +882,36 @@ help:
 	@echo "... libft/libft/ft_strcpy.o"
 	@echo "... libft/libft/ft_strcpy.i"
 	@echo "... libft/libft/ft_strcpy.s"
+	@echo "... libft/libft/ft_strdel.o"
+	@echo "... libft/libft/ft_strdel.i"
+	@echo "... libft/libft/ft_strdel.s"
+	@echo "... libft/libft/ft_strdup.o"
+	@echo "... libft/libft/ft_strdup.i"
+	@echo "... libft/libft/ft_strdup.s"
 	@echo "... libft/libft/ft_strjoin.o"
 	@echo "... libft/libft/ft_strjoin.i"
 	@echo "... libft/libft/ft_strjoin.s"
 	@echo "... libft/libft/ft_strlen.o"
 	@echo "... libft/libft/ft_strlen.i"
 	@echo "... libft/libft/ft_strlen.s"
+	@echo "... libft/libft/ft_strncpy.o"
+	@echo "... libft/libft/ft_strncpy.i"
+	@echo "... libft/libft/ft_strncpy.s"
 	@echo "... libft/libft/ft_strnew.o"
 	@echo "... libft/libft/ft_strnew.i"
 	@echo "... libft/libft/ft_strnew.s"
+	@echo "... libft/libft/ft_strsplit.o"
+	@echo "... libft/libft/ft_strsplit.i"
+	@echo "... libft/libft/ft_strsplit.s"
+	@echo "... libft/libft/ft_strsub.o"
+	@echo "... libft/libft/ft_strsub.i"
+	@echo "... libft/libft/ft_strsub.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... valid_func.o"
+	@echo "... valid_func.i"
+	@echo "... valid_func.s"
 .PHONY : help
 
 

@@ -441,6 +441,246 @@ CMakeFiles/push_swap.dir/create_func.c.o.provides: CMakeFiles/push_swap.dir/crea
 CMakeFiles/push_swap.dir/create_func.c.o.provides.build: CMakeFiles/push_swap.dir/create_func.c.o
 
 
+CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o: ../libft/libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strdup.c
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strdup.c > CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.i
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strdup.c -o CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.s
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o.requires
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o.provides: CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o.provides
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o.provides.build: CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o
+
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o: ../libft/libft/ft_strsplit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsplit.c
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsplit.c > CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.i
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsplit.c -o CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.s
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o.requires
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o.provides: CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o.provides
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o.provides.build: CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o
+
+
+CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o: ../libft/libft/ft_hz.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_hz.c
+
+CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_hz.c > CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.i
+
+CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_hz.c -o CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.s
+
+CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o.requires
+
+CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o.provides: CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o.provides
+
+CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o.provides.build: CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o
+
+
+CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o: ../libft/libft/ft_newsize.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_newsize.c
+
+CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_newsize.c > CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.i
+
+CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_newsize.c -o CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.s
+
+CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o.requires
+
+CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o.provides: CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o.provides
+
+CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o.provides.build: CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o
+
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o: ../libft/libft/ft_strsub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsub.c
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsub.c > CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.i
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsub.c -o CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.s
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o.requires
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o.provides: CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o.provides
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o.provides.build: CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o
+
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o: ../libft/libft/ft_strncpy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strncpy.c
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strncpy.c > CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.i
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strncpy.c -o CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.s
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o.requires
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o.provides: CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o.provides
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o.provides.build: CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o
+
+
+CMakeFiles/push_swap.dir/lem_valid_n.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/lem_valid_n.c.o: ../lem_valid_n.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/push_swap.dir/lem_valid_n.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/lem_valid_n.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/lem_valid_n.c
+
+CMakeFiles/push_swap.dir/lem_valid_n.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/lem_valid_n.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/lem_valid_n.c > CMakeFiles/push_swap.dir/lem_valid_n.c.i
+
+CMakeFiles/push_swap.dir/lem_valid_n.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/lem_valid_n.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/lem_valid_n.c -o CMakeFiles/push_swap.dir/lem_valid_n.c.s
+
+CMakeFiles/push_swap.dir/lem_valid_n.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/lem_valid_n.c.o.requires
+
+CMakeFiles/push_swap.dir/lem_valid_n.c.o.provides: CMakeFiles/push_swap.dir/lem_valid_n.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/lem_valid_n.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/lem_valid_n.c.o.provides
+
+CMakeFiles/push_swap.dir/lem_valid_n.c.o.provides.build: CMakeFiles/push_swap.dir/lem_valid_n.c.o
+
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o: ../libft/libft/ft_strdel.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strdel.c
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strdel.c > CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.i
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strdel.c -o CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.s
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o.requires
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o.provides: CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o.provides
+
+CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o.provides.build: CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o
+
+
+CMakeFiles/push_swap.dir/check_func.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/check_func.c.o: ../check_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/push_swap.dir/check_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/check_func.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/check_func.c
+
+CMakeFiles/push_swap.dir/check_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/check_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/check_func.c > CMakeFiles/push_swap.dir/check_func.c.i
+
+CMakeFiles/push_swap.dir/check_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/check_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/check_func.c -o CMakeFiles/push_swap.dir/check_func.c.s
+
+CMakeFiles/push_swap.dir/check_func.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/check_func.c.o.requires
+
+CMakeFiles/push_swap.dir/check_func.c.o.provides: CMakeFiles/push_swap.dir/check_func.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_func.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/check_func.c.o.provides
+
+CMakeFiles/push_swap.dir/check_func.c.o.provides.build: CMakeFiles/push_swap.dir/check_func.c.o
+
+
+CMakeFiles/push_swap.dir/valid_func.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/valid_func.c.o: ../valid_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/push_swap.dir/valid_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/valid_func.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/valid_func.c
+
+CMakeFiles/push_swap.dir/valid_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/valid_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/valid_func.c > CMakeFiles/push_swap.dir/valid_func.c.i
+
+CMakeFiles/push_swap.dir/valid_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/valid_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/valid_func.c -o CMakeFiles/push_swap.dir/valid_func.c.s
+
+CMakeFiles/push_swap.dir/valid_func.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/valid_func.c.o.requires
+
+CMakeFiles/push_swap.dir/valid_func.c.o.provides: CMakeFiles/push_swap.dir/valid_func.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/valid_func.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/valid_func.c.o.provides
+
+CMakeFiles/push_swap.dir/valid_func.c.o.provides.build: CMakeFiles/push_swap.dir/valid_func.c.o
+
+
 # Object files for target push_swap
 push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/main.c.o" \
@@ -458,7 +698,17 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/libft/libft/ft_bzero.c.o" \
 "CMakeFiles/push_swap.dir/libft/libft/ft_strchr.c.o" \
 "CMakeFiles/push_swap.dir/libft/libft/ft_memset.c.o" \
-"CMakeFiles/push_swap.dir/create_func.c.o"
+"CMakeFiles/push_swap.dir/create_func.c.o" \
+"CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o" \
+"CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o" \
+"CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o" \
+"CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o" \
+"CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o" \
+"CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o" \
+"CMakeFiles/push_swap.dir/lem_valid_n.c.o" \
+"CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o" \
+"CMakeFiles/push_swap.dir/check_func.c.o" \
+"CMakeFiles/push_swap.dir/valid_func.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -479,9 +729,19 @@ push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_bzero.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_strchr.c.o
 push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_memset.c.o
 push_swap: CMakeFiles/push_swap.dir/create_func.c.o
+push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o
+push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o
+push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o
+push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o
+push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o
+push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o
+push_swap: CMakeFiles/push_swap.dir/lem_valid_n.c.o
+push_swap: CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o
+push_swap: CMakeFiles/push_swap.dir/check_func.c.o
+push_swap: CMakeFiles/push_swap.dir/valid_func.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -505,6 +765,16 @@ CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_bzero
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_strchr.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_memset.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/create_func.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_strdup.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_hz.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_newsize.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_strncpy.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/lem_valid_n.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/libft/libft/ft_strdel.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/check_func.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/valid_func.c.o.requires
 
 .PHONY : CMakeFiles/push_swap.dir/requires
 

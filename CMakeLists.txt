@@ -18,5 +18,15 @@ set(SOURCE_FILES main.c
         libft/libft/ft_bzero.c
         libft/libft/ft_strchr.c
         libft/libft/ft_memset.c
-        create_func.c)
+        create_func.c
+        libft/libft//ft_strdup.c
+        libft/libft/ft_strsplit.c
+        libft/libft/ft_hz.c
+        libft/libft/ft_newsize.c
+        libft/libft/ft_strsub.c
+        libft/libft/ft_strncpy.c
+        lem_valid_n.c
+        libft/libft/ft_strdel.c
+        check_func.c
+        valid_func.c)
 add_executable(push_swap ${SOURCE_FILES})

@@ -4,35 +4,52 @@
 
 #include "lem_in.h"
 
-t_link *create_link(void)
+t_in	*create_in(void)
 {
-	t_link *link;
+	t_in *in;
 
-	link = (t_link *)malloc(sizeof(t_link));
-	link->link = NULL;
-	link->next = NULL;
-	return (link);
+	in = (t_in *)malloc(sizeof(t_in));
+	in->room = NULL;
+	in->index = 0;
+	in->next = NULL;
+	in->x = 0;
+	in->y = 0;
+	return (in);
 }
 
-t_in *create_room(void)
+t_lem	*create_lem(void)
 {
-	t_in *room;
+	t_lem  *lem;
 
-	room = (t_in *)malloc(sizeof(t_in));
-	room->num_r = NULL;
-	room->next = NULL;
-	room->links = create_link();
-	return (room);
+	lem = (t_lem *)malloc(sizeof(t_lem));
+	lem->ants = -1;
+	lem->math = NULL;
+	lem->index = 0;
+	return (lem);
 }
 
-t_lem *create_lemin(void)
+t_map	*create_map(void)
 {
-	t_lem *lemin;
+	t_map  *map;
 
-	lemin = (t_lem *)malloc(sizeof(t_lem));
-	lemin->ants = 0;
-	lemin->end = NULL;
-	lemin->start = NULL;
-	lemin->room = create_room();
-	return (lemin);
+	map = (t_map *)malloc(sizeof(t_map));
+	map->str = NULL;
+	map->next = NULL;
+	return (map);
+}
+
+int **create_math(int len)
+{
+	int **math;
+	int i;
+
+	i = 0;
+	math = (int **)malloc(sizeof(int *) * (len + 2));
+	while (i < len + 2)
+	{
+		math[i] = (int *)malloc(sizeof(int) * (len + 2));
+		ft_bzero(math[i], (size_t)(len + 2));
+		i++;
+	}
+	return (math);
 }

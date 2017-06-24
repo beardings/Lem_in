@@ -82,10 +82,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/check_func.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/check_maxint.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/create_func.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/lem_valid_n.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/lemin_valid.c">
@@ -100,7 +106,13 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_bzero.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_hz.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_memset.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_newsize.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strcat.c">
@@ -118,16 +130,34 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strcpy.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strdel.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strdup.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strjoin.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strlen.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strncpy.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strnew.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsplit.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsub.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/main.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/valid_func.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/CMakeLists.txt">

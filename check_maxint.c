@@ -36,7 +36,7 @@ int				check_maxint(char *str)
 	long		i;
 
 	i = ft_atoi_l(str);
-	if (i > INT_MAX || i < INT_MIN)
+	if (i > INT_MAX || i < 0)
 		return (0);
 	else
 		return (1);
