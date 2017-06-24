@@ -5,8 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mponomar/project/git/Lem_in/check_func.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_func.c.o"
+  "/nfs/2016/m/mponomar/project/git/Lem_in/check_funcn.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_funcn.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/check_maxint.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_maxint.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/create_func.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/create_func.c.o"
+  "/nfs/2016/m/mponomar/project/git/Lem_in/del_func.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/del_func.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/lem_valid_n.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/lem_valid_n.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/lemin_valid.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/lemin_valid.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/libft/get_next_line/get_next_line.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/libft/get_next_line/get_next_line.c.o"
@@ -29,7 +31,11 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsplit.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/libft/libft/ft_strsplit.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsub.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/main.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
+  "/nfs/2016/m/mponomar/project/git/Lem_in/next_valid.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/next_valid.c.o"
+  "/nfs/2016/m/mponomar/project/git/Lem_in/print.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/print.c.o"
+  "/nfs/2016/m/mponomar/project/git/Lem_in/room.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/room.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/valid_func.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/valid_func.c.o"
+  "/nfs/2016/m/mponomar/project/git/Lem_in/yescom.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/yescom.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

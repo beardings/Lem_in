@@ -1,13 +1,21 @@
-//
-// Created by Mykola Ponomarov on 24.06.17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   check_func.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/24 14:15:12 by mponomar          #+#    #+#             */
+/*   Updated: 2017/06/24 14:16:52 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "lem_in.h"
 
-int check_link(t_map **tmp)
+int			check_link(t_map **tmp)
 {
-	int i;
-	int k;
+	int		i;
+	int		k;
 
 	i = 0;
 	k = 0;
@@ -21,10 +29,10 @@ int check_link(t_map **tmp)
 	return (0);
 }
 
-int check_st_en(t_in **in)
+int			check_st_en(t_in **in)
 {
-	t_in *tmp;
-	int i;
+	t_in	*tmp;
+	int		i;
 
 	i = 0;
 	tmp = *in;
@@ -41,10 +49,10 @@ int check_st_en(t_in **in)
 	return (0);
 }
 
-int	check_name(char *str, t_in **in)
+int			check_name(char *str, t_in **in)
 {
-	int i;
-	t_in *tmp;
+	int		i;
+	t_in	*tmp;
 
 	i = 0;
 	tmp = *in;
@@ -75,10 +83,10 @@ int			check_lstsize(t_in **lst)
 	return (i);
 }
 
-int check_coor(t_in **in, char *str1, char *str2)
+int			check_coor(t_in **in, char *str1, char *str2)
 {
-	t_in *tmp;
-	int k;
+	t_in	*tmp;
+	int		k;
 
 	k = 0;
 	tmp = *in;
@@ -91,5 +99,4 @@ int check_coor(t_in **in, char *str1, char *str2)
 	if (k <= 1)
 		return (1);
 	return (0);
-
 }

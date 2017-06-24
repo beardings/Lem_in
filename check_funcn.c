@@ -1,13 +1,21 @@
-//
-// Created by Mykola Ponomarov on 24.06.17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   check_funcn.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/24 14:18:05 by mponomar          #+#    #+#             */
+/*   Updated: 2017/06/24 14:18:09 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "lem_in.h"
 
-int chint(char *str)
+int			chint(char *str)
 {
-	int i;
-	int len;
+	int		i;
+	int		len;
 
 
 	i = 0;
@@ -24,10 +32,10 @@ int chint(char *str)
 	return (0);
 }
 
-int check_space(char *str)
+int			check_space(char *str)
 {
-	int i;
-	int k;
+	int		i;
+	int		k;
 
 	k = 0;
 	i = 0;
@@ -42,10 +50,10 @@ int check_space(char *str)
 	return (0);
 }
 
-int it_numants(char *str, t_lem **lem)
+int			it_numants(char *str, t_lem **lem)
 {
-	int i;
-	int len;
+	int		i;
+	int		len;
 
 	i = 0;
 	if (str[i] == '\0')
@@ -67,7 +75,7 @@ int it_numants(char *str, t_lem **lem)
 		return (0);
 }
 
-int it_command(char *str, t_in **in, t_map **tmp)
+int			it_command(char *str, t_in **in, t_map **tmp)
 {
 	if (!(ft_strcmp(str, "##end")))
 	{
@@ -89,7 +97,7 @@ int it_command(char *str, t_in **in, t_map **tmp)
 		return (0);
 }
 
-int it_comment(char *str)
+int			it_comment(char *str)
 {
 	if (!(ft_strcmp(str, "##end")) || !(ft_strcmp(str, "##start")))
 		return (2);

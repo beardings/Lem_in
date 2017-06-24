@@ -7,6 +7,12 @@ CMakeFiles/push_swap.dir/check_func.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/check_func.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/check_func.c.o: ../libft/header/libft.h
 
+CMakeFiles/push_swap.dir/check_funcn.c.o: ../check_funcn.c
+CMakeFiles/push_swap.dir/check_funcn.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/check_funcn.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/check_funcn.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/check_funcn.c.o: ../libft/header/libft.h
+
 CMakeFiles/push_swap.dir/check_maxint.c.o: ../check_maxint.c
 CMakeFiles/push_swap.dir/check_maxint.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/check_maxint.c.o: ../libft/header/ft_printf.h
@@ -18,6 +24,12 @@ CMakeFiles/push_swap.dir/create_func.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/create_func.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/create_func.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/create_func.c.o: ../libft/header/libft.h
+
+CMakeFiles/push_swap.dir/del_func.c.o: ../del_func.c
+CMakeFiles/push_swap.dir/del_func.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/del_func.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/del_func.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/del_func.c.o: ../libft/header/libft.h
 
 CMakeFiles/push_swap.dir/lem_valid_n.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/lem_valid_n.c.o: ../lem_valid_n.c
@@ -93,9 +105,27 @@ CMakeFiles/push_swap.dir/main.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/main.c.o: ../libft/header/libft.h
 CMakeFiles/push_swap.dir/main.c.o: ../main.c
 
+CMakeFiles/push_swap.dir/print.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/print.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/print.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/print.c.o: ../libft/header/libft.h
+CMakeFiles/push_swap.dir/print.c.o: ../print.c
+
+CMakeFiles/push_swap.dir/room.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/room.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/room.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/room.c.o: ../libft/header/libft.h
+CMakeFiles/push_swap.dir/room.c.o: ../room.c
+
 CMakeFiles/push_swap.dir/valid_func.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/valid_func.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/valid_func.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/valid_func.c.o: ../libft/header/libft.h
 CMakeFiles/push_swap.dir/valid_func.c.o: ../valid_func.c
+
+CMakeFiles/push_swap.dir/yescom.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/yescom.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/yescom.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/yescom.c.o: ../libft/header/libft.h
+CMakeFiles/push_swap.dir/yescom.c.o: ../yescom.c
 

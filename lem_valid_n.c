@@ -1,27 +1,5 @@
-//
-// Created by Mykola Ponomarov on 20.06.17.
-//
 
 #include "lem_in.h"
-
-int	check_name(char *str, t_in **in)
-{
-	int i;
-	t_in *tmp;
-
-	i = 0;
-	tmp = *in;
-	while (tmp)
-	{
-		if (!(ft_strcmp(tmp->room, str)))
-			i++;
-		tmp = tmp->next;
-	}
-	if (i == 1)
-		return (1);
-	else
-		return (0);
-}
 
 int valid_link(t_in **in, t_lem **lem, t_map **tmp)
 {

@@ -150,6 +150,33 @@ check_func.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_func.c.s
 .PHONY : check_func.c.s
 
+check_funcn.o: check_funcn.c.o
+
+.PHONY : check_funcn.o
+
+# target to build an object file
+check_funcn.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_funcn.c.o
+.PHONY : check_funcn.c.o
+
+check_funcn.i: check_funcn.c.i
+
+.PHONY : check_funcn.i
+
+# target to preprocess a source file
+check_funcn.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_funcn.c.i
+.PHONY : check_funcn.c.i
+
+check_funcn.s: check_funcn.c.s
+
+.PHONY : check_funcn.s
+
+# target to generate assembly for a file
+check_funcn.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_funcn.c.s
+.PHONY : check_funcn.c.s
+
 check_maxint.o: check_maxint.c.o
 
 .PHONY : check_maxint.o
@@ -203,6 +230,33 @@ create_func.s: create_func.c.s
 create_func.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/create_func.c.s
 .PHONY : create_func.c.s
+
+del_func.o: del_func.c.o
+
+.PHONY : del_func.o
+
+# target to build an object file
+del_func.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/del_func.c.o
+.PHONY : del_func.c.o
+
+del_func.i: del_func.c.i
+
+.PHONY : del_func.i
+
+# target to preprocess a source file
+del_func.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/del_func.c.i
+.PHONY : del_func.c.i
+
+del_func.s: del_func.c.s
+
+.PHONY : del_func.s
+
+# target to generate assembly for a file
+del_func.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/del_func.c.s
+.PHONY : del_func.c.s
 
 lem_valid_n.o: lem_valid_n.c.o
 
@@ -798,6 +852,87 @@ main.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/main.c.s
 .PHONY : main.c.s
 
+next_valid.o: next_valid.c.o
+
+.PHONY : next_valid.o
+
+# target to build an object file
+next_valid.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/next_valid.c.o
+.PHONY : next_valid.c.o
+
+next_valid.i: next_valid.c.i
+
+.PHONY : next_valid.i
+
+# target to preprocess a source file
+next_valid.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/next_valid.c.i
+.PHONY : next_valid.c.i
+
+next_valid.s: next_valid.c.s
+
+.PHONY : next_valid.s
+
+# target to generate assembly for a file
+next_valid.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/next_valid.c.s
+.PHONY : next_valid.c.s
+
+print.o: print.c.o
+
+.PHONY : print.o
+
+# target to build an object file
+print.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print.c.o
+.PHONY : print.c.o
+
+print.i: print.c.i
+
+.PHONY : print.i
+
+# target to preprocess a source file
+print.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print.c.i
+.PHONY : print.c.i
+
+print.s: print.c.s
+
+.PHONY : print.s
+
+# target to generate assembly for a file
+print.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print.c.s
+.PHONY : print.c.s
+
+room.o: room.c.o
+
+.PHONY : room.o
+
+# target to build an object file
+room.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/room.c.o
+.PHONY : room.c.o
+
+room.i: room.c.i
+
+.PHONY : room.i
+
+# target to preprocess a source file
+room.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/room.c.i
+.PHONY : room.c.i
+
+room.s: room.c.s
+
+.PHONY : room.s
+
+# target to generate assembly for a file
+room.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/room.c.s
+.PHONY : room.c.s
+
 valid_func.o: valid_func.c.o
 
 .PHONY : valid_func.o
@@ -825,6 +960,33 @@ valid_func.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/valid_func.c.s
 .PHONY : valid_func.c.s
 
+yescom.o: yescom.c.o
+
+.PHONY : yescom.o
+
+# target to build an object file
+yescom.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/yescom.c.o
+.PHONY : yescom.c.o
+
+yescom.i: yescom.c.i
+
+.PHONY : yescom.i
+
+# target to preprocess a source file
+yescom.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/yescom.c.i
+.PHONY : yescom.c.i
+
+yescom.s: yescom.c.s
+
+.PHONY : yescom.s
+
+# target to generate assembly for a file
+yescom.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/yescom.c.s
+.PHONY : yescom.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -837,12 +999,18 @@ help:
 	@echo "... check_func.o"
 	@echo "... check_func.i"
 	@echo "... check_func.s"
+	@echo "... check_funcn.o"
+	@echo "... check_funcn.i"
+	@echo "... check_funcn.s"
 	@echo "... check_maxint.o"
 	@echo "... check_maxint.i"
 	@echo "... check_maxint.s"
 	@echo "... create_func.o"
 	@echo "... create_func.i"
 	@echo "... create_func.s"
+	@echo "... del_func.o"
+	@echo "... del_func.i"
+	@echo "... del_func.s"
 	@echo "... lem_valid_n.o"
 	@echo "... lem_valid_n.i"
 	@echo "... lem_valid_n.s"
@@ -909,9 +1077,21 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... next_valid.o"
+	@echo "... next_valid.i"
+	@echo "... next_valid.s"
+	@echo "... print.o"
+	@echo "... print.i"
+	@echo "... print.s"
+	@echo "... room.o"
+	@echo "... room.i"
+	@echo "... room.s"
 	@echo "... valid_func.o"
 	@echo "... valid_func.i"
 	@echo "... valid_func.s"
+	@echo "... yescom.o"
+	@echo "... yescom.i"
+	@echo "... yescom.s"
 .PHONY : help
 
 

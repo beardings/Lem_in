@@ -25,8 +25,13 @@ set(SOURCE_FILES main.c
         libft/libft/ft_newsize.c
         libft/libft/ft_strsub.c
         libft/libft/ft_strncpy.c
-        lem_valid_n.c
         libft/libft/ft_strdel.c
+        valid_func.c
+        check_funcn.c
+        del_func.c
+        print.c
         check_func.c
-        valid_func.c)
+        lem_valid_n.c
+        yescom.c
+        room.c next_valid.c)
 add_executable(push_swap ${SOURCE_FILES})
