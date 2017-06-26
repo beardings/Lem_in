@@ -6,7 +6,7 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/24 14:18:05 by mponomar          #+#    #+#             */
-/*   Updated: 2017/06/24 14:18:09 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/06/24 14:20:31 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,8 @@ int			chint(char *str)
 	int		i;
 	int		len;
 
-
 	i = 0;
-	len = (int) ft_strlen(str);
+	len = (int)ft_strlen(str);
 	while (str[i] > 47 && str[i] < 58)
 		i++;
 	if (len == i)
@@ -32,7 +31,7 @@ int			chint(char *str)
 	return (0);
 }
 
-int			check_space(char *str)
+int			check_sp(char *str)
 {
 	int		i;
 	int		k;
@@ -58,7 +57,7 @@ int			it_numants(char *str, t_lem **lem)
 	i = 0;
 	if (str[i] == '\0')
 		return (0);
-	len = (int) ft_strlen(str);
+	len = (int)ft_strlen(str);
 	while (str[i] > 47 && str[i] < 58)
 		i++;
 	if (len == i)
@@ -80,7 +79,7 @@ int			it_command(char *str, t_in **in, t_map **tmp)
 	if (!(ft_strcmp(str, "##end")))
 	{
 		*tmp = (*tmp)->next;
-		if ((check_space((*tmp)->str)) == 1 && (yescom(2, in, (*tmp)->str)) == 1)
+		if ((check_sp((*tmp)->str)) == 1 && (yescom(2, in, (*tmp)->str)) == 1)
 			return (1);
 		else
 			return (0);
@@ -88,7 +87,7 @@ int			it_command(char *str, t_in **in, t_map **tmp)
 	else if (!(ft_strcmp(str, "##start")))
 	{
 		*tmp = (*tmp)->next;
-		if ((check_space((*tmp)->str)) == 1 && (yescom(1, in, (*tmp)->str)) == 1)
+		if ((check_sp((*tmp)->str)) == 1 && (yescom(1, in, (*tmp)->str)) == 1)
 			return (1);
 		else
 			return (0);

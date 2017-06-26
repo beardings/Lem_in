@@ -1,15 +1,23 @@
-//
-// Created by Mykola Ponomarov on 17.05.17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/24 14:32:37 by mponomar          #+#    #+#             */
+/*   Updated: 2017/06/24 14:32:52 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "lem_in.h"
 
-int main(void)
+int			main(void)
 {
-	char *line;
-	int fd;
-	t_map *map;
-	t_map *tmp;
+	char	*line;
+	int		fd;
+	t_map	*map;
+	t_map	*tmp;
 
 	map = create_map();
 	line = NULL;

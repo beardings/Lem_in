@@ -1,6 +1,14 @@
-//
-// Created by Mykola Ponomarov on 24.06.17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   del_func.c                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/24 14:28:04 by mponomar          #+#    #+#             */
+/*   Updated: 2017/06/24 14:28:51 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "lem_in.h"
 
@@ -20,7 +28,6 @@ void		ft_delroom(char **room)
 
 void		ft_del_lem(t_lem **lem, int len)
 {
-
 	int		i;
 
 	i = 0;
@@ -50,7 +57,6 @@ void		ft_del_in(t_in **in)
 		wow = wow->next;
 		free(pop->room);
 		free(pop);
-
 	}
 	*in = NULL;
 	return ;

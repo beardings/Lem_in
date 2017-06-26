@@ -1,13 +1,21 @@
-//
-// Created by Mykola Ponomarov on 24.06.17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   valid_func.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/24 14:41:47 by mponomar          #+#    #+#             */
+/*   Updated: 2017/06/24 14:42:38 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "lem_in.h"
 
-void put_st_en(int **math, t_in **in, int len)
+void		put_st_en(int **math, t_in **in, int len)
 {
-	int i;
-	t_in *tmp;
+	int		i;
+	t_in	*tmp;
 
 	tmp = *in;
 	i = 0;
@@ -26,15 +34,14 @@ void put_st_en(int **math, t_in **in, int len)
 		i++;
 		tmp = tmp->next;
 	}
-
 }
 
-void put_link(char *str1, char *str2, int **math, t_in **in)
+void		put_link(char *str1, char *str2, int **math, t_in **in)
 {
-	int i;
-	int k;
-	int j;
-	t_in *tmp;
+	int		i;
+	int		k;
+	int		j;
+	t_in	*tmp;
 
 	tmp = *in;
 	i = 0;
@@ -53,11 +60,11 @@ void put_link(char *str1, char *str2, int **math, t_in **in)
 	math[k + 1][i + 1] = 1;
 }
 
-int next_link(t_map **tmp)
+int			next_link(t_map **tmp)
 {
-	t_map *wow;
-	int i;
-	int k;
+	t_map	*wow;
+	int		i;
+	int		k;
 
 	wow = *tmp;
 	i = 0;

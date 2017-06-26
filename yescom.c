@@ -1,14 +1,24 @@
-//
-// Created by Mykola Ponomarov on 24.06.17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   yescom.c                                           :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/24 14:42:50 by mponomar          #+#    #+#             */
+/*   Updated: 2017/06/24 14:43:01 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "lem_in.h"
 
-int yescom(int k, t_in **in, char *str)
+
+
+int			yescom(int k, t_in **in, char *str)
 {
-	char **room;
-	int i;
-	t_in *wow;
+	char	**room;
+	int		i;
+	t_in	*wow;
 
 	wow = *in;
 	i = 0;
@@ -18,11 +28,7 @@ int yescom(int k, t_in **in, char *str)
 		ft_delroom(room);
 		return (0);
 	}
-	while (wow->room != NULL)
-	{
-		wow->next == NULL ? wow->next = create_in() : 0;
-		wow = wow->next;
-	}
+	create_f(&wow);
 	while (room[i])
 	{
 		if (i == 0)
@@ -56,7 +62,5 @@ int yescom(int k, t_in **in, char *str)
 		}
 	}
 	ft_delroom(room);
-	if (i == 3)
-		return (1);
-	return (0);
+	return (i == 3 ? 1 : 0);
 }

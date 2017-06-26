@@ -1,12 +1,20 @@
-//
-// Created by Mykola Ponomarov on 24.06.17.
-//
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2017/06/24 14:40:29 by mponomar          #+#    #+#             */
+/*   Updated: 2017/06/24 14:40:49 by mponomar         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
 #include "lem_in.h"
 
-void print_struct(t_map **map)
+void		print_struct(t_map **map)
 {
-	t_map *tmp;
+	t_map	*tmp;
 
 	tmp = *map;
 	while (tmp->next != NULL)
@@ -16,10 +24,10 @@ void print_struct(t_map **map)
 	}
 }
 
-void put_out_math(int **math, int len)
+void		put_out_math(int **math, int len)
 {
-	int i;
-	int k;
+	int		i;
+	int		k;
 
 	i = 0;
 	while (i < len + 2)
