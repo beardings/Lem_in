@@ -6,13 +6,13 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/24 14:42:50 by mponomar          #+#    #+#             */
-/*   Updated: 2017/06/24 14:43:01 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/06/27 16:22:07 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lem_in.h"
 
-int it_rom(char **room, int *i, t_in **wow, int k)
+int			it_rom(char **room, int *i, t_in **wow, int k)
 {
 	if (room[*i][0] != 'L' || room[*i][0] != '#')
 	{
@@ -29,7 +29,7 @@ int it_rom(char **room, int *i, t_in **wow, int k)
 	}
 }
 
-int it_rom2(char **room, int *i, t_in **wow, t_in **in)
+int			it_rom2(char **room, int *i, t_in **wow, t_in **in)
 {
 	if ((chint(room[*i])) == 1 && check_coor(in, room[1], room[2]) == 1)
 	{
@@ -45,7 +45,7 @@ int it_rom2(char **room, int *i, t_in **wow, t_in **in)
 	}
 }
 
-int checkroom(char **room)
+int			checkroom(char **room)
 {
 	if (room[1] == NULL || room[3] != NULL)
 	{

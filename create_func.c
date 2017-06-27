@@ -46,6 +46,16 @@ t_map		*create_map(void)
 	return (map);
 }
 
+t_ways		*create_ways(void)
+{
+	t_ways	*ways;
+
+	ways = (t_ways *)malloc(sizeof(t_ways));
+	ways->way = create_way();
+	ways->next = NULL;
+	return (ways);
+}
+
 int			**create_math(int len)
 {
 	int		**math;

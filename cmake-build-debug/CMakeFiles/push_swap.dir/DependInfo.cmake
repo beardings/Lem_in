@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "/nfs/2016/m/mponomar/project/git/Lem_in/algorithm.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/algorithm.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/check_func.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_func.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/check_funcn.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_funcn.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/check_maxint.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_maxint.c.o"

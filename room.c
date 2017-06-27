@@ -6,7 +6,7 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/24 14:41:11 by mponomar          #+#    #+#             */
-/*   Updated: 2017/06/24 14:41:25 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/06/27 16:22:36 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ int			it_roo(char **room, int *i, t_in **wow, t_in **in)
 	}
 }
 
-int check_room(char **room, int *i, t_in **wow, t_in **in)
+int			check_room(char **room, int *i, t_in **wow, t_in **in)
 {
 	if (*i == 0)
 	{

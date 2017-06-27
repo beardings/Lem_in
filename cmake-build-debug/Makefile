@@ -123,6 +123,33 @@ push_swap/fast:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/build
 .PHONY : push_swap/fast
 
+algorithm.o: algorithm.c.o
+
+.PHONY : algorithm.o
+
+# target to build an object file
+algorithm.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/algorithm.c.o
+.PHONY : algorithm.c.o
+
+algorithm.i: algorithm.c.i
+
+.PHONY : algorithm.i
+
+# target to preprocess a source file
+algorithm.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/algorithm.c.i
+.PHONY : algorithm.c.i
+
+algorithm.s: algorithm.c.s
+
+.PHONY : algorithm.s
+
+# target to generate assembly for a file
+algorithm.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/algorithm.c.s
+.PHONY : algorithm.c.s
+
 check_func.o: check_func.c.o
 
 .PHONY : check_func.o
@@ -996,6 +1023,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... push_swap"
+	@echo "... algorithm.o"
+	@echo "... algorithm.i"
+	@echo "... algorithm.s"
 	@echo "... check_func.o"
 	@echo "... check_func.i"
 	@echo "... check_func.s"

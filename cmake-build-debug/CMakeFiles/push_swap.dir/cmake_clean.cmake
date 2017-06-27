@@ -31,6 +31,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/yescom.c.o"
   "CMakeFiles/push_swap.dir/room.c.o"
   "CMakeFiles/push_swap.dir/next_valid.c.o"
+  "CMakeFiles/push_swap.dir/algorithm.c.o"
   "push_swap.pdb"
   "push_swap"
 )

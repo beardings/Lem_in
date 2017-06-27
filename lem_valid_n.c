@@ -6,13 +6,13 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/24 14:31:24 by mponomar          #+#    #+#             */
-/*   Updated: 2017/06/24 14:31:26 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/06/27 16:25:17 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lem_in.h"
 
-int ch_valid(char **link, int *i)
+int			ch_valid(char **link, int *i)
 {
 	if (link[2] != NULL || link[1] == NULL)
 	{
@@ -27,31 +27,31 @@ int ch_valid(char **link, int *i)
 	return (1);
 }
 
-void freelink(char **link)
+void		freelink(char **link)
 {
 	free(link[0]);
 	free(link[1]);
 	free(link);
 }
 
-void nextstep(t_lem **lem, int **math)
+void		nextstep(t_lem **lem, int **math)
 {
 	(*lem)->math = math;
 	(*lem)->index = 2;
 }
 
-void nextst(char **link, int **math, t_in **in, t_lem **lem)
+void		nextst(char **link, int **math, t_in **in, t_lem **lem)
 {
 	put_link(link[0], link[1], math, in);
 	(*lem)->index = 1;
 }
 
-int valid_link(t_in **in, t_lem **lem, t_map **tmp)
+int			valid_link(t_in **in, t_lem **lem, t_map **tmp)
 {
-	char **link;
-	int i;
-	int len_m;
-	int **math;
+	char	**link;
+	int		i;
+	int		len_m;
+	int		**math;
 
 	len_m = check_lstsize(in);
 	i = 0;

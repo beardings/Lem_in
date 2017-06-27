@@ -6,13 +6,13 @@
 /*   By: mponomar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/24 14:32:23 by mponomar          #+#    #+#             */
-/*   Updated: 2017/06/24 14:32:27 by mponomar         ###   ########.fr       */
+/*   Updated: 2017/06/27 16:26:12 by mponomar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "lem_in.h"
 
-int first(t_map **tmp, t_in **in, t_lem **lem)
+int			first(t_map **tmp, t_in **in, t_lem **lem)
 {
 	if ((it_command((*tmp)->str, in, tmp)) == 0)
 	{
@@ -25,7 +25,7 @@ int first(t_map **tmp, t_in **in, t_lem **lem)
 	return (1);
 }
 
-int second(t_lem **lem, t_map **tmp, t_in **in)
+int			second(t_lem **lem, t_map **tmp, t_in **in)
 {
 	if ((next_valid(lem, in, tmp)) == 0)
 	{
@@ -39,7 +39,7 @@ int second(t_lem **lem, t_map **tmp, t_in **in)
 	return (1);
 }
 
-int err(t_in **in, t_lem **lem)
+int			err(t_in **in, t_lem **lem)
 {
 	if ((error(in, lem) == 0))
 	{
@@ -51,7 +51,7 @@ int err(t_in **in, t_lem **lem)
 	return (1);
 }
 
-int firstnorm(t_map **tmp, t_lem **lem, t_in **in)
+int			firstnorm(t_map **tmp, t_lem **lem, t_in **in)
 {
 	if (it_comment((*tmp)->str) == 1)
 		*tmp = (*tmp)->next;
@@ -68,11 +68,12 @@ int firstnorm(t_map **tmp, t_lem **lem, t_in **in)
 	return (1);
 }
 
-void lemin_valid(t_map **map)
+void		lemin_valid(t_map **map)
 {
-	t_map *tmp;
-	t_lem *lem;
-	t_in *in;
+	t_map	*tmp;
+	t_lem	*lem;
+	t_in	*in;
+	t_ways	*ways;
 
 	in = create_in();
 	lem = create_lem();
@@ -87,6 +88,8 @@ void lemin_valid(t_map **map)
 	print_struct(map);
 	printf("\n");
 	put_out_math(lem->math, check_lstsize(&in));
+	ways = create_ways();
+	algorithm(); // начинаем ркурсию
 	ft_del_lem(&lem, check_lstsize(&in));
 	ft_del_in(&in);
 }
