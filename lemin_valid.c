@@ -89,7 +89,7 @@ void		lemin_valid(t_map **map)
 	printf("\n");
 	put_out_math(lem->math, check_lstsize(&in));
 	ways = create_ways();
-	algorithm(); // начинаем ркурсию
+	algorithm(&lem, &ways, &in);
 	ft_del_lem(&lem, check_lstsize(&in));
 	ft_del_in(&in);
 }

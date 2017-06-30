@@ -85,6 +85,9 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/algorithm.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/change_list.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/check_func.c">
 			<Option target="push_swap"/>
 		</Unit>

@@ -26,6 +26,8 @@ int		next_valid(t_lem **lem, t_in **in, t_map **tmp)
 		return (1);
 	else if ((check_st_en(in)) == 1 && next_link(tmp) == 1)
 	{
+		(*lem)->index == 0 ? chenge_st(in) : 0;
+		(*lem)->index == 0 ? chenge_en(in) : 0;
 		if ((check_link(tmp)) == 1 && (valid_link(in, lem, tmp)) == 1)
 			return (1);
 		else

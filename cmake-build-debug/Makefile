@@ -150,6 +150,33 @@ algorithm.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/algorithm.c.s
 .PHONY : algorithm.c.s
 
+change_list.o: change_list.c.o
+
+.PHONY : change_list.o
+
+# target to build an object file
+change_list.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/change_list.c.o
+.PHONY : change_list.c.o
+
+change_list.i: change_list.c.i
+
+.PHONY : change_list.i
+
+# target to preprocess a source file
+change_list.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/change_list.c.i
+.PHONY : change_list.c.i
+
+change_list.s: change_list.c.s
+
+.PHONY : change_list.s
+
+# target to generate assembly for a file
+change_list.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/change_list.c.s
+.PHONY : change_list.c.s
+
 check_func.o: check_func.c.o
 
 .PHONY : check_func.o
@@ -1026,6 +1053,9 @@ help:
 	@echo "... algorithm.o"
 	@echo "... algorithm.i"
 	@echo "... algorithm.s"
+	@echo "... change_list.o"
+	@echo "... change_list.i"
+	@echo "... change_list.s"
 	@echo "... check_func.o"
 	@echo "... check_func.i"
 	@echo "... check_func.s"

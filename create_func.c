@@ -33,6 +33,7 @@ t_lem		*create_lem(void)
 	lem->ants = -1;
 	lem->math = NULL;
 	lem->index = 0;
+	lem->visit = NULL;
 	return (lem);
 }
 
@@ -44,6 +45,16 @@ t_map		*create_map(void)
 	map->str = NULL;
 	map->next = NULL;
 	return (map);
+}
+
+t_way		*create_way(void)
+{
+	t_way *way;
+
+	way = (t_way *)malloc(sizeof(t_way));
+	way->name = 0;
+	way->next = NULL;
+	return (way);
 }
 
 t_ways		*create_ways(void)

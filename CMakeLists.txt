@@ -33,5 +33,8 @@ set(SOURCE_FILES main.c
         check_func.c
         lem_valid_n.c
         yescom.c
-        room.c next_valid.c algorithm.c)
+        room.c
+        next_valid.c
+        change_list.c
+        algorithm.c)
 add_executable(push_swap ${SOURCE_FILES})
