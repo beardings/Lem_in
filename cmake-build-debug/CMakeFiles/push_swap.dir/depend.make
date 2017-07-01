@@ -123,6 +123,12 @@ CMakeFiles/push_swap.dir/next_valid.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/next_valid.c.o: ../libft/header/libft.h
 CMakeFiles/push_swap.dir/next_valid.c.o: ../next_valid.c
 
+CMakeFiles/push_swap.dir/output.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/output.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/output.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/output.c.o: ../libft/header/libft.h
+CMakeFiles/push_swap.dir/output.c.o: ../output.c
+
 CMakeFiles/push_swap.dir/print.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/print.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/print.c.o: ../libft/header/get_next_line.h

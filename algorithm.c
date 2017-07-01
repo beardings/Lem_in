@@ -23,7 +23,7 @@ void	cr_ways(t_ways **ways, t_ways *ww, t_way *way)
 	*ways = (t_ways *)malloc(sizeof(t_ways));
 	(*ways)->way = NULL;
 	(*ways)->len = 0;
-	(*ways)->cross = 0;
+	(*ways)->cross = NULL;
 	(*ways)->next = ww;
 	cp_way(&(*ways)->way, way);
 }

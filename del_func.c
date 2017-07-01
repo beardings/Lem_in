@@ -50,6 +50,7 @@ void		ft_del_ways(t_ways **ways)
 	{
 		res = tmp->next;
 		ft_del_way(&tmp->way);
+		free(tmp->cross);
 		free(tmp);
 		tmp = res;
 	}
