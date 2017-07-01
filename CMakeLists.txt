@@ -36,5 +36,6 @@ set(SOURCE_FILES main.c
         room.c
         next_valid.c
         change_list.c
-        algorithm.c)
+        algorithm.c
+        output.c)
 add_executable(push_swap ${SOURCE_FILES})

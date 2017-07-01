@@ -172,6 +172,9 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/next_valid.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/output.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/print.c">
 			<Option target="push_swap"/>
 		</Unit>

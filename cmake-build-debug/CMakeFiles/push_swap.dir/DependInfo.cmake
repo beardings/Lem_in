@@ -34,6 +34,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mponomar/project/git/Lem_in/libft/libft/ft_strsub.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/libft/libft/ft_strsub.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/main.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/main.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/next_valid.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/next_valid.c.o"
+  "/nfs/2016/m/mponomar/project/git/Lem_in/output.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/output.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/print.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/print.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/room.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/room.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/valid_func.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/valid_func.c.o"

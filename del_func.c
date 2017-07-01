@@ -26,6 +26,35 @@ void		ft_delroom(char **room)
 	return ;
 }
 
+void		ft_del_way(t_way **way)
+{
+	t_way *tmp;
+	t_way *res;
+
+	tmp = *way;
+	while (tmp)
+	{
+		res = tmp->next;
+		free(tmp);
+		tmp = res;
+	}
+}
+
+void		ft_del_ways(t_ways **ways)
+{
+	t_ways *tmp;
+	t_ways *res;
+
+	tmp = *ways;
+	while (tmp)
+	{
+		res = tmp->next;
+		ft_del_way(&tmp->way);
+		free(tmp);
+		tmp = res;
+	}
+}
+
 void		ft_del_lem(t_lem **lem, int len)
 {
 	int		i;
@@ -40,6 +69,8 @@ void		ft_del_lem(t_lem **lem, int len)
 		}
 		free((*lem)->math);
 	}
+	free((*lem)->visit);
+	ft_del_ways(&(*lem)->ways);
 	free(*lem);
 	*lem = NULL;
 	return ;

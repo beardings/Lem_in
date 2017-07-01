@@ -73,7 +73,7 @@ void		lemin_valid(t_map **map)
 	t_map	*tmp;
 	t_lem	*lem;
 	t_in	*in;
-	t_ways	*ways;
+	t_way	*way;
 
 	in = create_in();
 	lem = create_lem();
@@ -85,11 +85,13 @@ void		lemin_valid(t_map **map)
 	}
 	if ((err(&in, &lem)) == 0)
 		return ;
-	print_struct(map);
-	printf("\n");
-	put_out_math(lem->math, check_lstsize(&in));
-	ways = create_ways();
-	algorithm(&lem, &ways, &in);
+	way = create_way();
+	if ((algorithm(lem, &way, &in)) == 1)
+	{
+		print_struct(map);
+		printf("\n");
+		put_out_math(lem->math, check_lstsize(&in));
+	}
 	ft_del_lem(&lem, check_lstsize(&in));
 	ft_del_in(&in);
 }

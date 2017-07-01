@@ -933,6 +933,33 @@ next_valid.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/next_valid.c.s
 .PHONY : next_valid.c.s
 
+output.o: output.c.o
+
+.PHONY : output.o
+
+# target to build an object file
+output.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/output.c.o
+.PHONY : output.c.o
+
+output.i: output.c.i
+
+.PHONY : output.i
+
+# target to preprocess a source file
+output.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/output.c.i
+.PHONY : output.c.i
+
+output.s: output.c.s
+
+.PHONY : output.s
+
+# target to generate assembly for a file
+output.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/output.c.s
+.PHONY : output.c.s
+
 print.o: print.c.o
 
 .PHONY : print.o
@@ -1140,6 +1167,9 @@ help:
 	@echo "... next_valid.o"
 	@echo "... next_valid.i"
 	@echo "... next_valid.s"
+	@echo "... output.o"
+	@echo "... output.i"
+	@echo "... output.s"
 	@echo "... print.o"
 	@echo "... print.i"
 	@echo "... print.s"

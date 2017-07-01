@@ -34,6 +34,7 @@ t_lem		*create_lem(void)
 	lem->math = NULL;
 	lem->index = 0;
 	lem->visit = NULL;
+	lem->ways = NULL;
 	return (lem);
 }
 
@@ -55,16 +56,6 @@ t_way		*create_way(void)
 	way->name = 0;
 	way->next = NULL;
 	return (way);
-}
-
-t_ways		*create_ways(void)
-{
-	t_ways	*ways;
-
-	ways = (t_ways *)malloc(sizeof(t_ways));
-	ways->way = create_way();
-	ways->next = NULL;
-	return (ways);
 }
 
 int			**create_math(int len)
