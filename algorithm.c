@@ -24,6 +24,7 @@ void	cr_ways(t_ways **ways, t_ways *ww, t_way *way)
 	(*ways)->way = NULL;
 	(*ways)->len = 0;
 	(*ways)->cross = NULL;
+	(*ways)->index = 0;
 	(*ways)->next = ww;
 	cp_way(&(*ways)->way, way);
 }
@@ -101,5 +102,6 @@ int		algorithm(t_lem *lem, t_way **way, t_in **in)
 		return (0);
 	}
 	pars_ways(&lem->ways);
+	out_put(&lem, in);
 	return (1);
 }

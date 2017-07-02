@@ -933,32 +933,59 @@ next_valid.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/next_valid.c.s
 .PHONY : next_valid.c.s
 
-output.o: output.c.o
+out_put_ants.o: out_put_ants.c.o
 
-.PHONY : output.o
+.PHONY : out_put_ants.o
 
 # target to build an object file
-output.c.o:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/output.c.o
-.PHONY : output.c.o
+out_put_ants.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/out_put_ants.c.o
+.PHONY : out_put_ants.c.o
 
-output.i: output.c.i
+out_put_ants.i: out_put_ants.c.i
 
-.PHONY : output.i
+.PHONY : out_put_ants.i
 
 # target to preprocess a source file
-output.c.i:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/output.c.i
-.PHONY : output.c.i
+out_put_ants.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/out_put_ants.c.i
+.PHONY : out_put_ants.c.i
 
-output.s: output.c.s
+out_put_ants.s: out_put_ants.c.s
 
-.PHONY : output.s
+.PHONY : out_put_ants.s
 
 # target to generate assembly for a file
-output.c.s:
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/output.c.s
-.PHONY : output.c.s
+out_put_ants.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/out_put_ants.c.s
+.PHONY : out_put_ants.c.s
+
+pars_ways.o: pars_ways.c.o
+
+.PHONY : pars_ways.o
+
+# target to build an object file
+pars_ways.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/pars_ways.c.o
+.PHONY : pars_ways.c.o
+
+pars_ways.i: pars_ways.c.i
+
+.PHONY : pars_ways.i
+
+# target to preprocess a source file
+pars_ways.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/pars_ways.c.i
+.PHONY : pars_ways.c.i
+
+pars_ways.s: pars_ways.c.s
+
+.PHONY : pars_ways.s
+
+# target to generate assembly for a file
+pars_ways.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/pars_ways.c.s
+.PHONY : pars_ways.c.s
 
 print.o: print.c.o
 
@@ -986,6 +1013,33 @@ print.s: print.c.s
 print.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print.c.s
 .PHONY : print.c.s
+
+print_ants.o: print_ants.c.o
+
+.PHONY : print_ants.o
+
+# target to build an object file
+print_ants.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_ants.c.o
+.PHONY : print_ants.c.o
+
+print_ants.i: print_ants.c.i
+
+.PHONY : print_ants.i
+
+# target to preprocess a source file
+print_ants.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_ants.c.i
+.PHONY : print_ants.c.i
+
+print_ants.s: print_ants.c.s
+
+.PHONY : print_ants.s
+
+# target to generate assembly for a file
+print_ants.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_ants.c.s
+.PHONY : print_ants.c.s
 
 room.o: room.c.o
 
@@ -1167,12 +1221,18 @@ help:
 	@echo "... next_valid.o"
 	@echo "... next_valid.i"
 	@echo "... next_valid.s"
-	@echo "... output.o"
-	@echo "... output.i"
-	@echo "... output.s"
+	@echo "... out_put_ants.o"
+	@echo "... out_put_ants.i"
+	@echo "... out_put_ants.s"
+	@echo "... pars_ways.o"
+	@echo "... pars_ways.i"
+	@echo "... pars_ways.s"
 	@echo "... print.o"
 	@echo "... print.i"
 	@echo "... print.s"
+	@echo "... print_ants.o"
+	@echo "... print_ants.i"
+	@echo "... print_ants.s"
 	@echo "... room.o"
 	@echo "... room.i"
 	@echo "... room.s"

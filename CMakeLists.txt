@@ -37,5 +37,7 @@ set(SOURCE_FILES main.c
         next_valid.c
         change_list.c
         algorithm.c
-        output.c)
+        pars_ways.c
+        out_put_ants.c
+        print_ants.c)
 add_executable(push_swap ${SOURCE_FILES})

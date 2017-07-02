@@ -873,28 +873,76 @@ CMakeFiles/push_swap.dir/algorithm.c.o.provides: CMakeFiles/push_swap.dir/algori
 CMakeFiles/push_swap.dir/algorithm.c.o.provides.build: CMakeFiles/push_swap.dir/algorithm.c.o
 
 
-CMakeFiles/push_swap.dir/output.c.o: CMakeFiles/push_swap.dir/flags.make
-CMakeFiles/push_swap.dir/output.c.o: ../output.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap.dir/output.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/output.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/output.c
+CMakeFiles/push_swap.dir/pars_ways.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/pars_ways.c.o: ../pars_ways.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/push_swap.dir/pars_ways.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/pars_ways.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/pars_ways.c
 
-CMakeFiles/push_swap.dir/output.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/output.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/output.c > CMakeFiles/push_swap.dir/output.c.i
+CMakeFiles/push_swap.dir/pars_ways.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/pars_ways.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/pars_ways.c > CMakeFiles/push_swap.dir/pars_ways.c.i
 
-CMakeFiles/push_swap.dir/output.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/output.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/output.c -o CMakeFiles/push_swap.dir/output.c.s
+CMakeFiles/push_swap.dir/pars_ways.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/pars_ways.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/pars_ways.c -o CMakeFiles/push_swap.dir/pars_ways.c.s
 
-CMakeFiles/push_swap.dir/output.c.o.requires:
+CMakeFiles/push_swap.dir/pars_ways.c.o.requires:
 
-.PHONY : CMakeFiles/push_swap.dir/output.c.o.requires
+.PHONY : CMakeFiles/push_swap.dir/pars_ways.c.o.requires
 
-CMakeFiles/push_swap.dir/output.c.o.provides: CMakeFiles/push_swap.dir/output.c.o.requires
-	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/output.c.o.provides.build
-.PHONY : CMakeFiles/push_swap.dir/output.c.o.provides
+CMakeFiles/push_swap.dir/pars_ways.c.o.provides: CMakeFiles/push_swap.dir/pars_ways.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/pars_ways.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/pars_ways.c.o.provides
 
-CMakeFiles/push_swap.dir/output.c.o.provides.build: CMakeFiles/push_swap.dir/output.c.o
+CMakeFiles/push_swap.dir/pars_ways.c.o.provides.build: CMakeFiles/push_swap.dir/pars_ways.c.o
+
+
+CMakeFiles/push_swap.dir/out_put_ants.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/out_put_ants.c.o: ../out_put_ants.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/push_swap.dir/out_put_ants.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/out_put_ants.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/out_put_ants.c
+
+CMakeFiles/push_swap.dir/out_put_ants.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/out_put_ants.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/out_put_ants.c > CMakeFiles/push_swap.dir/out_put_ants.c.i
+
+CMakeFiles/push_swap.dir/out_put_ants.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/out_put_ants.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/out_put_ants.c -o CMakeFiles/push_swap.dir/out_put_ants.c.s
+
+CMakeFiles/push_swap.dir/out_put_ants.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/out_put_ants.c.o.requires
+
+CMakeFiles/push_swap.dir/out_put_ants.c.o.provides: CMakeFiles/push_swap.dir/out_put_ants.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/out_put_ants.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/out_put_ants.c.o.provides
+
+CMakeFiles/push_swap.dir/out_put_ants.c.o.provides.build: CMakeFiles/push_swap.dir/out_put_ants.c.o
+
+
+CMakeFiles/push_swap.dir/print_ants.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/print_ants.c.o: ../print_ants.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/push_swap.dir/print_ants.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/print_ants.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/print_ants.c
+
+CMakeFiles/push_swap.dir/print_ants.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/print_ants.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/print_ants.c > CMakeFiles/push_swap.dir/print_ants.c.i
+
+CMakeFiles/push_swap.dir/print_ants.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/print_ants.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/print_ants.c -o CMakeFiles/push_swap.dir/print_ants.c.s
+
+CMakeFiles/push_swap.dir/print_ants.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/print_ants.c.o.requires
+
+CMakeFiles/push_swap.dir/print_ants.c.o.provides: CMakeFiles/push_swap.dir/print_ants.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_ants.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/print_ants.c.o.provides
+
+CMakeFiles/push_swap.dir/print_ants.c.o.provides.build: CMakeFiles/push_swap.dir/print_ants.c.o
 
 
 # Object files for target push_swap
@@ -933,7 +981,9 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/next_valid.c.o" \
 "CMakeFiles/push_swap.dir/change_list.c.o" \
 "CMakeFiles/push_swap.dir/algorithm.c.o" \
-"CMakeFiles/push_swap.dir/output.c.o"
+"CMakeFiles/push_swap.dir/pars_ways.c.o" \
+"CMakeFiles/push_swap.dir/out_put_ants.c.o" \
+"CMakeFiles/push_swap.dir/print_ants.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -972,10 +1022,12 @@ push_swap: CMakeFiles/push_swap.dir/room.c.o
 push_swap: CMakeFiles/push_swap.dir/next_valid.c.o
 push_swap: CMakeFiles/push_swap.dir/change_list.c.o
 push_swap: CMakeFiles/push_swap.dir/algorithm.c.o
-push_swap: CMakeFiles/push_swap.dir/output.c.o
+push_swap: CMakeFiles/push_swap.dir/pars_ways.c.o
+push_swap: CMakeFiles/push_swap.dir/out_put_ants.c.o
+push_swap: CMakeFiles/push_swap.dir/print_ants.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1017,7 +1069,9 @@ CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/room.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/next_valid.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/change_list.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/algorithm.c.o.requires
-CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/output.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/pars_ways.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/out_put_ants.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/print_ants.c.o.requires
 
 .PHONY : CMakeFiles/push_swap.dir/requires
 

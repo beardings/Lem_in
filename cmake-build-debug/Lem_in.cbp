@@ -172,10 +172,16 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/next_valid.c">
 			<Option target="push_swap"/>
 		</Unit>
-		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/output.c">
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/out_put_ants.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/pars_ways.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/print.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/print_ants.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/room.c">
