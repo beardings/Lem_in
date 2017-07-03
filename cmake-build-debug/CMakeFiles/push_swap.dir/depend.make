@@ -43,6 +43,12 @@ CMakeFiles/push_swap.dir/del_func.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/del_func.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/del_func.c.o: ../libft/header/libft.h
 
+CMakeFiles/push_swap.dir/del_func_out.c.o: ../del_func_out.c
+CMakeFiles/push_swap.dir/del_func_out.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/del_func_out.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/del_func_out.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/del_func_out.c.o: ../libft/header/libft.h
+
 CMakeFiles/push_swap.dir/func_for_ways.c.o: ../func_for_ways.c
 CMakeFiles/push_swap.dir/func_for_ways.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/func_for_ways.c.o: ../libft/header/ft_printf.h
@@ -135,6 +141,12 @@ CMakeFiles/push_swap.dir/out_put_ants.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/out_put_ants.c.o: ../libft/header/libft.h
 CMakeFiles/push_swap.dir/out_put_ants.c.o: ../out_put_ants.c
 
+CMakeFiles/push_swap.dir/pars_len_func.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/pars_len_func.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/pars_len_func.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/pars_len_func.c.o: ../libft/header/libft.h
+CMakeFiles/push_swap.dir/pars_len_func.c.o: ../pars_len_func.c
+
 CMakeFiles/push_swap.dir/pars_ways.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/pars_ways.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/pars_ways.c.o: ../libft/header/get_next_line.h
@@ -158,6 +170,12 @@ CMakeFiles/push_swap.dir/print_ants.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/print_ants.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/print_ants.c.o: ../libft/header/libft.h
 CMakeFiles/push_swap.dir/print_ants.c.o: ../print_ants.c
+
+CMakeFiles/push_swap.dir/print_ants_cross.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/print_ants_cross.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/print_ants_cross.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/print_ants_cross.c.o: ../libft/header/libft.h
+CMakeFiles/push_swap.dir/print_ants_cross.c.o: ../print_ants_cross.c
 
 CMakeFiles/push_swap.dir/room.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/room.c.o: ../libft/header/ft_printf.h

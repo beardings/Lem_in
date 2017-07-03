@@ -77,23 +77,6 @@ void		ft_del_lem(t_lem **lem, int len)
 	return ;
 }
 
-void		ft_del_in(t_in **in)
-{
-	t_in	*wow;
-	t_in	*pop;
-
-	wow = *in;
-	while (wow)
-	{
-		pop = wow;
-		wow = wow->next;
-		free(pop->room);
-		free(pop);
-	}
-	*in = NULL;
-	return ;
-}
-
 void		ft_del_map(t_map **head)
 {
 	t_map	*wow;

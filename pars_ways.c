@@ -4,41 +4,11 @@
 
 #include "lem_in.h"
 
-int		way_len(t_way **way)
+int			it_cross(t_way **way, t_way **res)
 {
-	t_way *tmp;
-	int i;
-
-	i = 0;
-	tmp = *way;
-	while (tmp)
-	{
-		i++;
-		tmp = tmp->next;
-	}
-	return (i - 1);
-}
-
-int		ways_len(t_ways **ways)
-{
-	t_ways *tmp;
-	int i;
-
-	i = 0;
-	tmp = *ways;
-	while (tmp)
-	{
-		i++;
-		tmp = tmp->next;
-	}
-	return (i);
-}
-
-int		it_cross(t_way **way, t_way **res)
-{
-	int kol;
-	t_way *tmp;
-	t_way *dst;
+	int		kol;
+	t_way	*tmp;
+	t_way	*dst;
 
 	dst = *res;
 	kol = 0;
@@ -56,10 +26,10 @@ int		it_cross(t_way **way, t_way **res)
 	return (kol > 2 ? 1 : 0);
 }
 
-void	pars_cross2(t_ways **ways, int i, t_ways **res)
+void		pars_cross2(t_ways **ways, int i, t_ways **res)
 {
-	int k;
-	t_ways *tmp;
+	int		k;
+	t_ways	*tmp;
 
 	k = 0;
 	tmp = *ways;
@@ -81,10 +51,10 @@ void	pars_cross2(t_ways **ways, int i, t_ways **res)
 
 }
 
-void	pars_cross(t_ways **ways)
+void		pars_cross(t_ways **ways)
 {
-	t_ways *tmp;
-	t_ways *res;
+	t_ways	*tmp;
+	t_ways	*res;
 	int i;
 
 	i = 0;
@@ -120,9 +90,9 @@ void	print_cross(t_ways **ways) // удалить
 	}
 }
 
-void	pars_ways(t_ways **ways)
+void		pars_ways(t_ways **ways)
 {
-	t_ways *tmp;
+	t_ways	*tmp;
 
 	tmp  = *ways;
 	while (tmp)

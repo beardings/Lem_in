@@ -4,19 +4,6 @@
 
 #include "lem_in.h"
 
-void		del_func_math_way(int **math)
-{
-	int		i;
-
-	i = 0;
-	while (math[i] != NULL)
-	{
-		free(math[i]);
-		i++;
-	}
-	free(math);
-}
-
 void		get_index(t_in **in)
 {
 	t_in	*tmp;
@@ -32,25 +19,31 @@ void		get_index(t_in **in)
 	}
 }
 
+void		be_zero(int size, int **math, int i)
+{
+	int		k;
+
+	k  = 0;
+	while (k < size)
+	{
+		math[i][k] = 0;
+		k++;
+	}
+	math[i][k] = -1;
+}
+
 void		do_math_way(int size, t_ways **ways, t_in **in, int ants)
 {
 	int		**math;
 	int		i;
 	t_way	*tmp;
-	int		k;
 
 	i = 0;
 	math = (int **)malloc(sizeof(int *) * 2);
 	while (i < 1)
 	{
 		math[i] = (int *)malloc(sizeof(int) * size + 1);
-		k = 0;
-		while (k < size)
-		{
-			math[i][k] = 0;
-			k++;
-		}
-		math[i][k] = -1;
+		be_zero(size, math, i);
 		i++;
 	}
 	math[i] = NULL;
@@ -75,7 +68,10 @@ void		find_short(t_ways **ways, t_in **in, int ants)
 	while (tmp)
 	{
 		if (size == tmp->len)
+		{
 			do_math_way(size + 1, &tmp, in, ants);
+			return ;
+		}
 		tmp = tmp->next;
 	}
 }
@@ -85,5 +81,9 @@ void		print_ants(int index, t_in **in, t_lem **lem, int size_step)
 	get_index(in);
 	if (index == 1)
 		find_short(&(*lem)->ways, in, (*lem)->ants);
-	size_step -=1;
+	else if (index == 2)
+	{
+		size_step -= 0;
+		find_cross(&(*lem)->ways, in, (*lem)->ants);
+	}
 }

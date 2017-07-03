@@ -103,6 +103,9 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/del_func.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/del_func_out.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/func_for_ways.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -178,6 +181,9 @@
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/out_put_ants.c">
 			<Option target="push_swap"/>
 		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/pars_len_func.c">
+			<Option target="push_swap"/>
+		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/pars_ways.c">
 			<Option target="push_swap"/>
 		</Unit>
@@ -188,6 +194,9 @@
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/print_ants.c">
+			<Option target="push_swap"/>
+		</Unit>
+		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/print_ants_cross.c">
 			<Option target="push_swap"/>
 		</Unit>
 		<Unit filename="/nfs/2016/m/mponomar/project/git/Lem_in/room.c">

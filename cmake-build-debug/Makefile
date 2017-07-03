@@ -312,6 +312,33 @@ del_func.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/del_func.c.s
 .PHONY : del_func.c.s
 
+del_func_out.o: del_func_out.c.o
+
+.PHONY : del_func_out.o
+
+# target to build an object file
+del_func_out.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/del_func_out.c.o
+.PHONY : del_func_out.c.o
+
+del_func_out.i: del_func_out.c.i
+
+.PHONY : del_func_out.i
+
+# target to preprocess a source file
+del_func_out.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/del_func_out.c.i
+.PHONY : del_func_out.c.i
+
+del_func_out.s: del_func_out.c.s
+
+.PHONY : del_func_out.s
+
+# target to generate assembly for a file
+del_func_out.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/del_func_out.c.s
+.PHONY : del_func_out.c.s
+
 func_for_ways.o: func_for_ways.c.o
 
 .PHONY : func_for_ways.o
@@ -987,6 +1014,33 @@ out_put_ants.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/out_put_ants.c.s
 .PHONY : out_put_ants.c.s
 
+pars_len_func.o: pars_len_func.c.o
+
+.PHONY : pars_len_func.o
+
+# target to build an object file
+pars_len_func.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/pars_len_func.c.o
+.PHONY : pars_len_func.c.o
+
+pars_len_func.i: pars_len_func.c.i
+
+.PHONY : pars_len_func.i
+
+# target to preprocess a source file
+pars_len_func.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/pars_len_func.c.i
+.PHONY : pars_len_func.c.i
+
+pars_len_func.s: pars_len_func.c.s
+
+.PHONY : pars_len_func.s
+
+# target to generate assembly for a file
+pars_len_func.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/pars_len_func.c.s
+.PHONY : pars_len_func.c.s
+
 pars_ways.o: pars_ways.c.o
 
 .PHONY : pars_ways.o
@@ -1094,6 +1148,33 @@ print_ants.s: print_ants.c.s
 print_ants.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_ants.c.s
 .PHONY : print_ants.c.s
+
+print_ants_cross.o: print_ants_cross.c.o
+
+.PHONY : print_ants_cross.o
+
+# target to build an object file
+print_ants_cross.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_ants_cross.c.o
+.PHONY : print_ants_cross.c.o
+
+print_ants_cross.i: print_ants_cross.c.i
+
+.PHONY : print_ants_cross.i
+
+# target to preprocess a source file
+print_ants_cross.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_ants_cross.c.i
+.PHONY : print_ants_cross.c.i
+
+print_ants_cross.s: print_ants_cross.c.s
+
+.PHONY : print_ants_cross.s
+
+# target to generate assembly for a file
+print_ants_cross.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_ants_cross.c.s
+.PHONY : print_ants_cross.c.s
 
 room.o: room.c.o
 
@@ -1206,6 +1287,9 @@ help:
 	@echo "... del_func.o"
 	@echo "... del_func.i"
 	@echo "... del_func.s"
+	@echo "... del_func_out.o"
+	@echo "... del_func_out.i"
+	@echo "... del_func_out.s"
 	@echo "... func_for_ways.o"
 	@echo "... func_for_ways.i"
 	@echo "... func_for_ways.s"
@@ -1281,6 +1365,9 @@ help:
 	@echo "... out_put_ants.o"
 	@echo "... out_put_ants.i"
 	@echo "... out_put_ants.s"
+	@echo "... pars_len_func.o"
+	@echo "... pars_len_func.i"
+	@echo "... pars_len_func.s"
 	@echo "... pars_ways.o"
 	@echo "... pars_ways.i"
 	@echo "... pars_ways.s"
@@ -1293,6 +1380,9 @@ help:
 	@echo "... print_ants.o"
 	@echo "... print_ants.i"
 	@echo "... print_ants.s"
+	@echo "... print_ants_cross.o"
+	@echo "... print_ants_cross.i"
+	@echo "... print_ants_cross.s"
 	@echo "... room.o"
 	@echo "... room.i"
 	@echo "... room.s"

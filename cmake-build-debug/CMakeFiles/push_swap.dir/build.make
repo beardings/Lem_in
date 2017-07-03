@@ -993,6 +993,78 @@ CMakeFiles/push_swap.dir/func_for_ways.c.o.provides: CMakeFiles/push_swap.dir/fu
 CMakeFiles/push_swap.dir/func_for_ways.c.o.provides.build: CMakeFiles/push_swap.dir/func_for_ways.c.o
 
 
+CMakeFiles/push_swap.dir/pars_len_func.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/pars_len_func.c.o: ../pars_len_func.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/push_swap.dir/pars_len_func.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/pars_len_func.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/pars_len_func.c
+
+CMakeFiles/push_swap.dir/pars_len_func.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/pars_len_func.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/pars_len_func.c > CMakeFiles/push_swap.dir/pars_len_func.c.i
+
+CMakeFiles/push_swap.dir/pars_len_func.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/pars_len_func.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/pars_len_func.c -o CMakeFiles/push_swap.dir/pars_len_func.c.s
+
+CMakeFiles/push_swap.dir/pars_len_func.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/pars_len_func.c.o.requires
+
+CMakeFiles/push_swap.dir/pars_len_func.c.o.provides: CMakeFiles/push_swap.dir/pars_len_func.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/pars_len_func.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/pars_len_func.c.o.provides
+
+CMakeFiles/push_swap.dir/pars_len_func.c.o.provides.build: CMakeFiles/push_swap.dir/pars_len_func.c.o
+
+
+CMakeFiles/push_swap.dir/del_func_out.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/del_func_out.c.o: ../del_func_out.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/push_swap.dir/del_func_out.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/del_func_out.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/del_func_out.c
+
+CMakeFiles/push_swap.dir/del_func_out.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/del_func_out.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/del_func_out.c > CMakeFiles/push_swap.dir/del_func_out.c.i
+
+CMakeFiles/push_swap.dir/del_func_out.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/del_func_out.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/del_func_out.c -o CMakeFiles/push_swap.dir/del_func_out.c.s
+
+CMakeFiles/push_swap.dir/del_func_out.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/del_func_out.c.o.requires
+
+CMakeFiles/push_swap.dir/del_func_out.c.o.provides: CMakeFiles/push_swap.dir/del_func_out.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/del_func_out.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/del_func_out.c.o.provides
+
+CMakeFiles/push_swap.dir/del_func_out.c.o.provides.build: CMakeFiles/push_swap.dir/del_func_out.c.o
+
+
+CMakeFiles/push_swap.dir/print_ants_cross.c.o: CMakeFiles/push_swap.dir/flags.make
+CMakeFiles/push_swap.dir/print_ants_cross.c.o: ../print_ants_cross.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/push_swap.dir/print_ants_cross.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/push_swap.dir/print_ants_cross.c.o   -c /nfs/2016/m/mponomar/project/git/Lem_in/print_ants_cross.c
+
+CMakeFiles/push_swap.dir/print_ants_cross.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/push_swap.dir/print_ants_cross.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /nfs/2016/m/mponomar/project/git/Lem_in/print_ants_cross.c > CMakeFiles/push_swap.dir/print_ants_cross.c.i
+
+CMakeFiles/push_swap.dir/print_ants_cross.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/push_swap.dir/print_ants_cross.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /nfs/2016/m/mponomar/project/git/Lem_in/print_ants_cross.c -o CMakeFiles/push_swap.dir/print_ants_cross.c.s
+
+CMakeFiles/push_swap.dir/print_ants_cross.c.o.requires:
+
+.PHONY : CMakeFiles/push_swap.dir/print_ants_cross.c.o.requires
+
+CMakeFiles/push_swap.dir/print_ants_cross.c.o.provides: CMakeFiles/push_swap.dir/print_ants_cross.c.o.requires
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_ants_cross.c.o.provides.build
+.PHONY : CMakeFiles/push_swap.dir/print_ants_cross.c.o.provides
+
+CMakeFiles/push_swap.dir/print_ants_cross.c.o.provides.build: CMakeFiles/push_swap.dir/print_ants_cross.c.o
+
+
 # Object files for target push_swap
 push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/main.c.o" \
@@ -1033,7 +1105,10 @@ push_swap_OBJECTS = \
 "CMakeFiles/push_swap.dir/out_put_ants.c.o" \
 "CMakeFiles/push_swap.dir/print_ants.c.o" \
 "CMakeFiles/push_swap.dir/print_an_func.c.o" \
-"CMakeFiles/push_swap.dir/func_for_ways.c.o"
+"CMakeFiles/push_swap.dir/func_for_ways.c.o" \
+"CMakeFiles/push_swap.dir/pars_len_func.c.o" \
+"CMakeFiles/push_swap.dir/del_func_out.c.o" \
+"CMakeFiles/push_swap.dir/print_ants_cross.c.o"
 
 # External object files for target push_swap
 push_swap_EXTERNAL_OBJECTS =
@@ -1077,9 +1152,12 @@ push_swap: CMakeFiles/push_swap.dir/out_put_ants.c.o
 push_swap: CMakeFiles/push_swap.dir/print_ants.c.o
 push_swap: CMakeFiles/push_swap.dir/print_an_func.c.o
 push_swap: CMakeFiles/push_swap.dir/func_for_ways.c.o
+push_swap: CMakeFiles/push_swap.dir/pars_len_func.c.o
+push_swap: CMakeFiles/push_swap.dir/del_func_out.c.o
+push_swap: CMakeFiles/push_swap.dir/print_ants_cross.c.o
 push_swap: CMakeFiles/push_swap.dir/build.make
 push_swap: CMakeFiles/push_swap.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking C executable push_swap"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking C executable push_swap"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/push_swap.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1126,6 +1204,9 @@ CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/out_put_ants.c.o.req
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/print_ants.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/print_an_func.c.o.requires
 CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/func_for_ways.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/pars_len_func.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/del_func_out.c.o.requires
+CMakeFiles/push_swap.dir/requires: CMakeFiles/push_swap.dir/print_ants_cross.c.o.requires
 
 .PHONY : CMakeFiles/push_swap.dir/requires
 
