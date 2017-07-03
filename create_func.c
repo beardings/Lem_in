@@ -62,13 +62,19 @@ int			**create_math(int len)
 {
 	int		**math;
 	int		i;
+	int k;
 
 	i = 0;
 	math = (int **)malloc(sizeof(int *) * (len + 2));
 	while (i < (len + 2))
 	{
 		math[i] = (int *)malloc(sizeof(int) * (len + 2));
-		ft_bzero(math[i], sizeof(math[i]) * (len + 2));
+		k = 0;
+		while (k < len + 2)
+		{
+			math[i][k] = 0;
+			k++;
+		}
 		i++;
 	}
 	return (math);

@@ -36,6 +36,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/pars_ways.c.o"
   "CMakeFiles/push_swap.dir/out_put_ants.c.o"
   "CMakeFiles/push_swap.dir/print_ants.c.o"
+  "CMakeFiles/push_swap.dir/print_an_func.c.o"
+  "CMakeFiles/push_swap.dir/func_for_ways.c.o"
   "push_swap.pdb"
   "push_swap"
 )

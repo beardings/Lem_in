@@ -4,34 +4,9 @@
 
 #include "lem_in.h"
 
-void 	cp_way(t_way **way, t_way *src)
+void		add_ways(t_lem *lem, t_way *way)
 {
-	t_way *tmp;
-
-	while (src)
-	{
-		tmp = create_way();
-		tmp->name = src->name;
-		tmp->next = *way;
-		*way = tmp;
-		src= src->next;
-	}
-}
-
-void	cr_ways(t_ways **ways, t_ways *ww, t_way *way)
-{
-	*ways = (t_ways *)malloc(sizeof(t_ways));
-	(*ways)->way = NULL;
-	(*ways)->len = 0;
-	(*ways)->cross = NULL;
-	(*ways)->index = 0;
-	(*ways)->next = ww;
-	cp_way(&(*ways)->way, way);
-}
-
-void	add_ways(t_lem *lem, t_way *way)
-{
-	t_ways *tmp;
+	t_ways	*tmp;
 
 	if (lem->ways == NULL)
 		return (cr_ways(&lem->ways, NULL, way));
@@ -41,18 +16,18 @@ void	add_ways(t_lem *lem, t_way *way)
 	cr_ways(&tmp->next, tmp->next, way);
 }
 
-void	clean_room(t_way **way)
+void		clean_room(t_way **way)
 {
-	t_way *tmp;
+	t_way	*tmp;
 
 	tmp = (*way)->next;
 	free(*way);
 	*way = tmp;
 }
 
-void	add_room(t_way **way, int i)
+void		add_room(t_way **way, int i)
 {
-	t_way *tmp;
+	t_way	*tmp;
 
 	tmp = create_way();
 	tmp->name = i;
@@ -60,9 +35,9 @@ void	add_room(t_way **way, int i)
 	*way = tmp;
 }
 
-void	recursive(t_lem *lem, int st, t_way **way, int len)
+void		recursive(t_lem *lem, int st, t_way **way, int len)
 {
-	int i;
+	int		i;
 
 	i = 1;
 	while (i - 1 < lem->index)
@@ -88,7 +63,7 @@ void	recursive(t_lem *lem, int st, t_way **way, int len)
 	}
 }
 
-int		algorithm(t_lem *lem, t_way **way, t_in **in)
+void		algorithm(t_lem *lem, t_way **way, t_in **in, t_map **map)
 {
 	lem->visit = (int *)malloc(sizeof(int) * check_lstsize(in));
 	ft_bzero(lem->visit, sizeof(int) * check_lstsize(in));
@@ -99,9 +74,12 @@ int		algorithm(t_lem *lem, t_way **way, t_in **in)
 	if (lem->ways == NULL)
 	{
 		printf("\033[0;31mERROR\033[0m\n");
-		return (0);
+		return ;
 	}
+	print_struct(map);
+	printf("\n");
+	put_out_math(lem->math, check_lstsize(in)); // нужно удалить
 	pars_ways(&lem->ways);
 	out_put(&lem, in);
-	return (1);
+	return ;
 }

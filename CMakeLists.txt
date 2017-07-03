@@ -39,5 +39,5 @@ set(SOURCE_FILES main.c
         algorithm.c
         pars_ways.c
         out_put_ants.c
-        print_ants.c)
+        print_ants.c print_an_func.c func_for_ways.c)
 add_executable(push_swap ${SOURCE_FILES})

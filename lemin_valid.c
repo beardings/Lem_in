@@ -86,12 +86,7 @@ void		lemin_valid(t_map **map)
 	if ((err(&in, &lem)) == 0)
 		return ;
 	way = create_way();
-	if ((algorithm(lem, &way, &in)) == 1)
-	{
-		print_struct(map);
-		printf("\n");
-		put_out_math(lem->math, check_lstsize(&in));
-	}
+	algorithm(lem, &way, &in, map);
 	ft_del_lem(&lem, check_lstsize(&in));
 	ft_del_in(&in);
 }

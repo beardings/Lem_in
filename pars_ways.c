@@ -99,7 +99,7 @@ void	pars_cross(t_ways **ways)
 
 }
 
-void	print_cross(t_ways **ways)
+void	print_cross(t_ways **ways) // удалить
 {
 	t_ways *tmp;
 	int i;
@@ -127,13 +127,13 @@ void	pars_ways(t_ways **ways)
 	tmp  = *ways;
 	while (tmp)
 	{
-		tmp->cross = (int *)malloc(sizeof(int) * ways_len(ways));
+		tmp->cross = (int*)malloc(sizeof(int) * ways_len(ways));
 		ft_bzero(tmp->cross, sizeof(int) * ways_len(ways));
 		tmp->len = way_len(&tmp->way);
 		tmp = tmp->next;
 	}
 	pars_cross(ways);
-	printf("\n");
-	print_cross(ways);
-	printf("\n");
+	printf("\n"); // удалить
+	print_cross(ways); //удалить
+	printf("\n"); // удалить
 }

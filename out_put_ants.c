@@ -4,10 +4,10 @@
 
 #include "lem_in.h"
 
-int		len_short_way(t_ways **ways)
+int			len_short_way(t_ways **ways)
 {
-	t_ways *tmp;
-	int size_step;
+	t_ways	*tmp;
+	int		size_step;
 
 	tmp = *ways;
 	size_step = tmp->len;
@@ -20,26 +20,32 @@ int		len_short_way(t_ways **ways)
 	return (size_step);
 }
 
-int		bust_way(t_ways **ways, int i)
+int			bust_way(t_ways **ways, int i)
 {
-	t_ways *tmp;
-	int k;
+	t_ways	*tmp;
+	int		k;
+	int		len;
 
 	k = 0;
+	len = 0;
 	tmp = *ways;
 	while (k < i)
 	{
 		k++;
 		tmp = tmp->next;
+		if (k + 1 == i)
+		{
+			tmp->index = 2;
+			len = tmp->len;
+		}
 	}
-	tmp->index = 2;
-	return (tmp->len);
+	return (len);
 }
 
-int		need_step(t_ways **ways, t_ways *src, int len)
+int			need_step(t_ways **ways, t_ways *src, int len)
 {
-	int i;
-	int step;
+	int		i;
+	int		step;
 
 	step = 0;
 	i = 0;
@@ -52,13 +58,13 @@ int		need_step(t_ways **ways, t_ways *src, int len)
 	return (step);
 }
 
-int		get_step(t_ways **ways, int zero)
+int			get_step(t_ways **ways, int zero)
 {
-	int i;
-	t_ways *tmp;
-	int len;
-	int size;
-	int step;
+	int		i;
+	t_ways	*tmp;
+	int		len;
+	int		size;
+	int		step;
 
 	len = ways_len(ways);
 	tmp = *ways;
@@ -82,12 +88,12 @@ int		get_step(t_ways **ways, int zero)
 	return (0);
 }
 
-void 	check_size_ways(t_ways **ways, int *size_ways)
+void		check_size_ways(t_ways **ways, int *size_ways)
 {
-	int zero;
-	t_ways *tmp;
-	int i;
-	int len;
+	int		zero;
+	t_ways	*tmp;
+	int		i;
+	int		len;
 
 	zero = 0;
 	len = ways_len(ways);
@@ -107,12 +113,12 @@ void 	check_size_ways(t_ways **ways, int *size_ways)
 	}
 }
 
-void	out_put(t_lem **lem, t_in **in)
+void		out_put(t_lem **lem, t_in **in)
 {
-	int size_ways;
-	int len_step;
-	int size_step;
-	int index;
+	int		size_ways;
+	int		len_step;
+	int		size_step;
+	int		index;
 
 	size_step = (((*lem)->ants/1) * ((len_short_way(&(*lem)->ways))/1));
 	index = 1;

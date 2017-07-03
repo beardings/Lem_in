@@ -312,6 +312,33 @@ del_func.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/del_func.c.s
 .PHONY : del_func.c.s
 
+func_for_ways.o: func_for_ways.c.o
+
+.PHONY : func_for_ways.o
+
+# target to build an object file
+func_for_ways.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/func_for_ways.c.o
+.PHONY : func_for_ways.c.o
+
+func_for_ways.i: func_for_ways.c.i
+
+.PHONY : func_for_ways.i
+
+# target to preprocess a source file
+func_for_ways.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/func_for_ways.c.i
+.PHONY : func_for_ways.c.i
+
+func_for_ways.s: func_for_ways.c.s
+
+.PHONY : func_for_ways.s
+
+# target to generate assembly for a file
+func_for_ways.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/func_for_ways.c.s
+.PHONY : func_for_ways.c.s
+
 lem_valid_n.o: lem_valid_n.c.o
 
 .PHONY : lem_valid_n.o
@@ -1014,6 +1041,33 @@ print.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print.c.s
 .PHONY : print.c.s
 
+print_an_func.o: print_an_func.c.o
+
+.PHONY : print_an_func.o
+
+# target to build an object file
+print_an_func.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_an_func.c.o
+.PHONY : print_an_func.c.o
+
+print_an_func.i: print_an_func.c.i
+
+.PHONY : print_an_func.i
+
+# target to preprocess a source file
+print_an_func.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_an_func.c.i
+.PHONY : print_an_func.c.i
+
+print_an_func.s: print_an_func.c.s
+
+.PHONY : print_an_func.s
+
+# target to generate assembly for a file
+print_an_func.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/print_an_func.c.s
+.PHONY : print_an_func.c.s
+
 print_ants.o: print_ants.c.o
 
 .PHONY : print_ants.o
@@ -1152,6 +1206,9 @@ help:
 	@echo "... del_func.o"
 	@echo "... del_func.i"
 	@echo "... del_func.s"
+	@echo "... func_for_ways.o"
+	@echo "... func_for_ways.i"
+	@echo "... func_for_ways.s"
 	@echo "... lem_valid_n.o"
 	@echo "... lem_valid_n.i"
 	@echo "... lem_valid_n.s"
@@ -1230,6 +1287,9 @@ help:
 	@echo "... print.o"
 	@echo "... print.i"
 	@echo "... print.s"
+	@echo "... print_an_func.o"
+	@echo "... print_an_func.i"
+	@echo "... print_an_func.s"
 	@echo "... print_ants.o"
 	@echo "... print_ants.i"
 	@echo "... print_ants.s"

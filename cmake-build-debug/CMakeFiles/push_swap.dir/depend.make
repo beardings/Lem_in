@@ -43,6 +43,12 @@ CMakeFiles/push_swap.dir/del_func.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/del_func.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/del_func.c.o: ../libft/header/libft.h
 
+CMakeFiles/push_swap.dir/func_for_ways.c.o: ../func_for_ways.c
+CMakeFiles/push_swap.dir/func_for_ways.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/func_for_ways.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/func_for_ways.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/func_for_ways.c.o: ../libft/header/libft.h
+
 CMakeFiles/push_swap.dir/lem_valid_n.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/lem_valid_n.c.o: ../lem_valid_n.c
 CMakeFiles/push_swap.dir/lem_valid_n.c.o: ../libft/header/ft_printf.h
@@ -140,6 +146,18 @@ CMakeFiles/push_swap.dir/print.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/print.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/print.c.o: ../libft/header/libft.h
 CMakeFiles/push_swap.dir/print.c.o: ../print.c
+
+CMakeFiles/push_swap.dir/print_an_func.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/print_an_func.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/print_an_func.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/print_an_func.c.o: ../libft/header/libft.h
+CMakeFiles/push_swap.dir/print_an_func.c.o: ../print_an_func.c
+
+CMakeFiles/push_swap.dir/print_ants.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/print_ants.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/print_ants.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/print_ants.c.o: ../libft/header/libft.h
+CMakeFiles/push_swap.dir/print_ants.c.o: ../print_ants.c
 
 CMakeFiles/push_swap.dir/room.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/room.c.o: ../libft/header/ft_printf.h
