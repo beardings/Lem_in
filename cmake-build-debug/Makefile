@@ -258,6 +258,33 @@ check_maxint.c.s:
 	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_maxint.c.s
 .PHONY : check_maxint.c.s
 
+check_ways_two.o: check_ways_two.c.o
+
+.PHONY : check_ways_two.o
+
+# target to build an object file
+check_ways_two.c.o:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_ways_two.c.o
+.PHONY : check_ways_two.c.o
+
+check_ways_two.i: check_ways_two.c.i
+
+.PHONY : check_ways_two.i
+
+# target to preprocess a source file
+check_ways_two.c.i:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_ways_two.c.i
+.PHONY : check_ways_two.c.i
+
+check_ways_two.s: check_ways_two.c.s
+
+.PHONY : check_ways_two.s
+
+# target to generate assembly for a file
+check_ways_two.c.s:
+	$(MAKE) -f CMakeFiles/push_swap.dir/build.make CMakeFiles/push_swap.dir/check_ways_two.c.s
+.PHONY : check_ways_two.c.s
+
 create_func.o: create_func.c.o
 
 .PHONY : create_func.o
@@ -1281,6 +1308,9 @@ help:
 	@echo "... check_maxint.o"
 	@echo "... check_maxint.i"
 	@echo "... check_maxint.s"
+	@echo "... check_ways_two.o"
+	@echo "... check_ways_two.i"
+	@echo "... check_ways_two.s"
 	@echo "... create_func.o"
 	@echo "... create_func.i"
 	@echo "... create_func.s"

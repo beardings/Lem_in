@@ -31,6 +31,12 @@ CMakeFiles/push_swap.dir/check_maxint.c.o: ../libft/header/ft_printf.h
 CMakeFiles/push_swap.dir/check_maxint.c.o: ../libft/header/get_next_line.h
 CMakeFiles/push_swap.dir/check_maxint.c.o: ../libft/header/libft.h
 
+CMakeFiles/push_swap.dir/check_ways_two.c.o: ../check_ways_two.c
+CMakeFiles/push_swap.dir/check_ways_two.c.o: ../lem_in.h
+CMakeFiles/push_swap.dir/check_ways_two.c.o: ../libft/header/ft_printf.h
+CMakeFiles/push_swap.dir/check_ways_two.c.o: ../libft/header/get_next_line.h
+CMakeFiles/push_swap.dir/check_ways_two.c.o: ../libft/header/libft.h
+
 CMakeFiles/push_swap.dir/create_func.c.o: ../create_func.c
 CMakeFiles/push_swap.dir/create_func.c.o: ../lem_in.h
 CMakeFiles/push_swap.dir/create_func.c.o: ../libft/header/ft_printf.h

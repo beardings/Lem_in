@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/nfs/2016/m/mponomar/project/git/Lem_in/check_func.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_func.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/check_funcn.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_funcn.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/check_maxint.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_maxint.c.o"
+  "/nfs/2016/m/mponomar/project/git/Lem_in/check_ways_two.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/check_ways_two.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/create_func.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/create_func.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/del_func.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/del_func.c.o"
   "/nfs/2016/m/mponomar/project/git/Lem_in/del_func_out.c" "/nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug/CMakeFiles/push_swap.dir/del_func_out.c.o"

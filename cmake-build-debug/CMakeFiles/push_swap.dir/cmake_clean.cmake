@@ -41,6 +41,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/push_swap.dir/pars_len_func.c.o"
   "CMakeFiles/push_swap.dir/del_func_out.c.o"
   "CMakeFiles/push_swap.dir/print_ants_cross.c.o"
+  "CMakeFiles/push_swap.dir/check_ways_two.c.o"
   "push_swap.pdb"
   "push_swap"
 )

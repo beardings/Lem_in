@@ -96,7 +96,7 @@ int			check_coor(t_in **in, char *str1, char *str2)
 			k++;
 		tmp = tmp->next;
 	}
-	if (k <= 1)
+	if (k < 1)
 		return (1);
 	return (0);
 }

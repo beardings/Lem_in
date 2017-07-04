@@ -30,6 +30,19 @@ int		*fill_math(t_way **way, int len)
 	return (math);
 }
 
+void		print_str(t_way **way)
+{
+	t_way	*tmp;
+
+	tmp = *way;
+	while (tmp)
+	{
+		printf("%d ", tmp->name);
+		tmp = tmp->next;
+	}
+	printf("\n");
+}
+
 void	find_cross(t_ways **ways, t_in **in, int ants)
 {
 	int i;
@@ -50,6 +63,7 @@ void	find_cross(t_ways **ways, t_in **in, int ants)
 	{
 		if (tmp->index == 2)
 		{
+			print_str(&tmp->way);
 			math[i] = fill_math(&tmp->way, way_len(&tmp->way) + 1);
 			i++;
 		}

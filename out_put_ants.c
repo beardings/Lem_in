@@ -66,6 +66,7 @@ int			get_step(t_ways **ways, int zero)
 		if (size == zero)
 		{
 			step += need_step(ways, tmp, len);
+			check_this_ways(ways, boom(ways));
 			return (step);
 		}
 		tmp = tmp->next;

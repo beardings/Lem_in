@@ -1,4 +1,16 @@
 /Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /nfs/2016/m/mponomar/project/git/Lem_in
 -- Configuring done
+CMake Error at CMakeLists.txt:43 (add_executable):
+  Cannot find source file:
+
+    check_ways_two.c
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .m .M .mm .h .hh .h++ .hm .hpp
+  .hxx .in .txx
+
+
+CMake Error: CMake can not determine linker language for target: push_swap
+CMake Error: Cannot determine link language for target "push_swap".
 -- Generating done
 -- Build files have been written to: /nfs/2016/m/mponomar/project/git/Lem_in/cmake-build-debug
+Unable to determine product file path for target push_swap (Debug). Running and debugging will be unavailable.
