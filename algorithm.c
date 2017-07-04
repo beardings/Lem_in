@@ -78,8 +78,10 @@ void		algorithm(t_lem *lem, t_way **way, t_in **in, t_map **map)
 	}
 	print_struct(map);
 	printf("\n");
-	put_out_math(lem->math, check_lstsize(in)); // нужно удалить
-	pars_ways(&lem->ways);
-	out_put(&lem, in);
+	if (lem->ants > 0)
+	{
+		pars_ways(&lem->ways);
+		out_put(&lem, in);
+	}
 	return ;
 }

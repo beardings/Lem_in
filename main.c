@@ -34,6 +34,5 @@ int			main(void)
 	lemin_valid(&map);
 	free(line);
 	ft_del_map(&map);
-	//while (1);
 	return (0);
 }

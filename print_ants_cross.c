@@ -50,7 +50,7 @@ void	find_cross(t_ways **ways, t_in **in, int ants)
 	{
 		if (tmp->index == 2)
 		{
-			math[i] = fill_math(&tmp->way, way_len(&tmp->way));
+			math[i] = fill_math(&tmp->way, way_len(&tmp->way) + 1);
 			i++;
 		}
 		tmp = tmp->next;
